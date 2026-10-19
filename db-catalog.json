@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-10-18",
+  "updated": "2026-10-19",
   "app": {
-    "version": "2.3.0",
+    "version": "2.3.2",
     "file": "index.html",
     "serviceWorker": "sw.js"
   },

@@ -1,4 +1,15 @@
-QUIZ GEA — v2.3.0
+QUIZ GEA — v2.3.2
+
+Correzione della versione 2.3.2
+- I database JSON presenti nel pacchetto vengono rilevati e registrati automaticamente dal catalogo all'avvio della versione HTTPS/PWA.
+- Non è più necessario importarli a mano: basta aprire il menu Database e spuntare quelli da utilizzare.
+- Il pulsante Database mostra ora DB attivi/DB installati, per esempio 5/6.
+- Catalogo e database del pacchetto vengono inclusi nella cache PWA per l'uso offline dopo il primo caricamento.
+- Aprendo index.html direttamente come file locale, il browser non consente di leggere automaticamente i JSON vicini: in quel caso resta disponibile l'importazione manuale.
+
+Correzione della versione 2.3.1
+- Rimossi dalla pagina iniziale il titolo promozionale e il testo introduttivo.
+- La scelta della modalità e il riepilogo del test occupano ora la parte iniziale della scheda.
 
 Novità della versione 2.3
 - Menu “Database” sempre disponibile nella barra superiore.
@@ -28,8 +39,8 @@ Novità della versione 2.1
 - I punti chiave delle 130 domande aperte sono visibili come esempio soltanto in modalità amministratore.
 
 Come usare il DB completo
-1. Aprire Configurazione → Database.
-2. Importare DB_Quiz_GEA_banca_completa_v5.19.json.
+1. Nella versione pubblicata HTTPS/PWA, aprire il menu Database e spuntare “Banca completa v5.19”, rilevato automaticamente.
+2. Solo se index.html viene aperto direttamente come file locale, importare DB_Quiz_GEA_banca_completa_v5.19.json da Configurazione → Database.
 3. Scegliere modalità, filtri e quantità da Configurazione → Test e filtri.
 Il DB completo contiene già la banca del simulatore v5.19: in genere non occorre unirlo agli archivi tematici più piccoli.
 

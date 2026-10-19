@@ -1,4 +1,4 @@
-QUIZ GEA 2.3.7 — CONTROLLO DELLA CONFIGURAZIONE, INSTALLAZIONE E DEL CREDITO PARZIALE
+QUIZ GEA 2.3.8 — CONTROLLO DELLA CONFIGURAZIONE, INSTALLAZIONE E DEL CREDITO PARZIALE
 Data: 19 ottobre 2026
 
 Nuovo percorso
@@ -22,11 +22,12 @@ Verifiche automatiche
 Controllati: avvio, menu Database, modalità e quantità, persistenza al riavvio, selezione dei DB,
 filtri, test misto, revisione, percentuale, note, importazione e aggiornamenti.
 Sette archivi JSON validi, conteggi del catalogo coerenti: 30 botanica, 21 geologia,
-37 ecologia, 12 storia, 1 fauna, 10 marketing e comunicazione, 657 banca completa.
+37 ecologia, 12 storia, 1 fauna, 3 marketing e comunicazione, 657 banca completa.
 
 Aggiornamento Marketing e comunicazione
-10 domande chiuse convertite nel formato nativo, con spiegazione dell’errore, argomenti e note.
+2 domande chiuse documentate nelle immagini e 1 domanda aperta nel formato nativo, con spiegazioni, suggerimenti, argomenti e note.
 Il nuovo DB separato viene rilevato automaticamente dal catalogo e da «Installa tutto».
+La risposta aperta di 15 righe è stata verificata sui materiali Classroom ed è visibile soltanto all’amministratore.
 
 Aggiornamento contenuti Storia
 7 nuove domande aperte controllate sui materiali Classroom. I dettagli sul sito UNESCO dei

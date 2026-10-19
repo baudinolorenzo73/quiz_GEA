@@ -2,9 +2,9 @@
   "schemaVersion": 1,
   "meta": {
     "title": "Database Quiz GEA — Marketing e comunicazione",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "updated": "2026-10-19",
-    "note": "Database indipendente di Marketing e comunicazione. Testi rivisti nella grammatica e nella coerenza senza modificare la sostanza didattica. La domanda fiscale esprime un principio generale e non sostituisce la verifica degli adempimenti applicabili al caso concreto.",
+    "note": "Database indipendente di Marketing e comunicazione. Contiene le due domande a crocetta documentate nelle immagini del questionario e una domanda aperta verificata sui materiali Classroom. La risposta aperta è un esempio da ampliare.",
     "id": "marketing-comunicazione",
     "updateFile": "DB_Quiz_GEA_marketing_comunicazione.json"
   },
@@ -14,14 +14,15 @@
       "category": "Marketing e comunicazione",
       "topic": "Fondamenti di marketing",
       "type": "closed",
-      "question": "Che cos’è il marketing?",
+      "question": "Volendo attribuire una definizione al termine “marketing”, quale fra le seguenti ti sembra la più pertinente e attuale?",
       "answers": [
-        "Un insieme di sole attività pubblicitarie.",
-        "Un processo per acquisire e fidelizzare clienti creando valore reciproco.",
-        "Una tecnica per aumentare i prezzi."
+        "Uno strumento per la pianificazione delle aziende profit, mirato all’acquisizione dei target.",
+        "Un processo attraverso il quale si acquisiscono e fidelizzano clienti, creando un valore reciproco.",
+        "Una sequenza di azioni con cui le aziende più evolute incentivano i rapporti commerciali."
       ],
       "correct": [1],
-      "explanation": "Il marketing comprende l’analisi dei bisogni, la creazione e la comunicazione del valore e la gestione della relazione con i clienti; non coincide con la sola pubblicità.",
+      "explanation": "Il marketing è un processo orientato a creare valore per i clienti e per l’organizzazione, sviluppando relazioni capaci di favorire acquisizione e fidelizzazione.",
+      "reference": "Questionario fotografato — domanda n. 1",
       "note": ""
     },
     {
@@ -29,135 +30,31 @@
       "category": "Marketing e comunicazione",
       "topic": "Marketing mix",
       "type": "closed",
-      "question": "Quali sono le quattro P del marketing mix?",
+      "question": "Il marketing mix è costituito da:",
       "answers": [
-        "Prodotto, prezzo, distribuzione e promozione.",
-        "Prodotto, prezzo, persone e posizionamento.",
-        "Prodotto, pianificazione, promozione e profitto."
+        "Prodotto, Profitto, Promozione, Posizionamento.",
+        "Prodotto, Prezzo, Piattaforme, Posizionamento.",
+        "Prodotto, Prezzo, Promozione, Posizionamento."
       ],
-      "correct": [0],
-      "explanation": "Le quattro P sono Product, Price, Place e Promotion, cioè prodotto, prezzo, distribuzione e promozione.",
+      "correct": [2],
+      "explanation": "Nel questionario fotografato la risposta indicata come corretta è: Prodotto, Prezzo, Promozione e Posizionamento. La formulazione viene mantenuta come richiesto.",
+      "reference": "Questionario fotografato — domanda n. 2",
       "note": ""
     },
     {
       "id": "MKT003",
       "category": "Marketing e comunicazione",
-      "topic": "Segmentazione e target",
-      "type": "closed",
-      "question": "Che cosa si intende per target di mercato?",
-      "answers": [
-        "L’insieme delle imprese concorrenti.",
-        "Il numero di prodotti da vendere.",
-        "Il segmento di clienti a cui si rivolge un prodotto o servizio."
-      ],
-      "correct": [2],
-      "explanation": "Il target è il gruppo di clienti, individuato mediante la segmentazione, al quale l’impresa indirizza la propria offerta e comunicazione.",
-      "note": ""
-    },
-    {
-      "id": "MKT004",
-      "category": "Marketing e comunicazione",
-      "topic": "Sviluppo del prodotto",
-      "type": "closed",
-      "question": "Che cosa indica il time to market?",
-      "answers": [
-        "La durata di una campagna pubblicitaria.",
-        "Il tempo dall’idea alla commercializzazione di un prodotto o servizio.",
-        "Il periodo durante il quale un prodotto resta in vendita."
-      ],
-      "correct": [1],
-      "explanation": "Il time to market misura il tempo necessario per trasformare un’idea in un prodotto o servizio disponibile sul mercato.",
-      "note": ""
-    },
-    {
-      "id": "MKT005",
-      "category": "Marketing e comunicazione",
-      "topic": "Valore della clientela",
-      "type": "closed",
-      "question": "Che cosa rappresenta la customer equity?",
-      "answers": [
-        "Il valore economico complessivo della clientela per l’impresa.",
-        "Il costo necessario per acquisire un nuovo cliente.",
-        "Il prezzo medio di un singolo servizio."
-      ],
-      "correct": [0],
-      "explanation": "La customer equity esprime il valore complessivo della base clienti, generalmente ricondotto alla somma del valore atteso delle relazioni con i singoli clienti.",
-      "note": ""
-    },
-    {
-      "id": "MKT006",
-      "category": "Marketing e comunicazione",
-      "topic": "Economia del turismo",
-      "type": "closed",
-      "question": "Che cosa comprende il settore turistico dal punto di vista economico?",
-      "answers": [
-        "Esclusivamente alberghi e strutture ricettive.",
-        "Soltanto agenzie di viaggio e tour operator.",
-        "Imprese e operatori che offrono beni e servizi destinati ai turisti."
-      ],
-      "correct": [2],
-      "explanation": "Il settore turistico comprende un insieme articolato di imprese e operatori: ricettività, ristorazione, trasporti, intermediazione, attrazioni e altri servizi rivolti ai visitatori.",
-      "note": ""
-    },
-    {
-      "id": "MKT007",
-      "category": "Marketing e comunicazione",
-      "topic": "Comunicazione efficace",
-      "type": "closed",
-      "question": "Che cosa caratterizza una comunicazione efficace?",
-      "answers": [
-        "Usare sempre un linguaggio tecnico.",
-        "Trasmettere messaggi chiari e verificare che siano compresi.",
-        "Comunicare senza lasciare spazio alle domande."
-      ],
-      "correct": [1],
-      "explanation": "Una comunicazione è efficace quando il messaggio è chiaro, adatto al destinatario e accompagnato da un riscontro che ne confermi la comprensione.",
-      "note": ""
-    },
-    {
-      "id": "MKT008",
-      "category": "Marketing e comunicazione",
-      "topic": "Adempimenti dell’attività",
-      "type": "closed",
-      "question": "Quale affermazione è corretta sull’emissione di una ricevuta?",
-      "answers": [
-        "Occorre essere identificabili fiscalmente e rispettare le regole applicabili all’attività.",
-        "È sempre sufficiente possedere il codice fiscale.",
-        "È sempre obbligatoria la partita IVA, anche per ogni prestazione occasionale."
-      ],
-      "correct": [0],
-      "explanation": "Gli adempimenti cambiano in base alla natura e alla continuità dell’attività: il solo codice fiscale non è sempre sufficiente e la partita IVA non è automaticamente richiesta per ogni prestazione occasionale. Va verificato il caso concreto.",
-      "note": ""
-    },
-    {
-      "id": "MKT009",
-      "category": "Marketing e comunicazione",
-      "topic": "Comunicazione assertiva",
-      "type": "closed",
-      "question": "Qual è la caratteristica fondamentale della comunicazione assertiva?",
-      "answers": [
-        "Imporre le proprie opinioni agli altri.",
-        "Evitare qualsiasi conflitto rinunciando a esprimersi.",
-        "Esprimere le proprie idee con chiarezza, fermezza e rispetto."
-      ],
-      "correct": [2],
-      "explanation": "L’assertività permette di esprimere bisogni, idee e limiti in modo chiaro e fermo, rispettando nello stesso tempo l’interlocutore.",
-      "note": ""
-    },
-    {
-      "id": "MKT010",
-      "category": "Marketing e comunicazione",
-      "topic": "Modello VAK",
-      "type": "closed",
-      "question": "Quali sono i tre canali sensoriali del modello VAK?",
-      "answers": [
-        "Verbale, paraverbale e non verbale.",
-        "Visivo, uditivo e cinestetico.",
-        "Visivo, olfattivo e gustativo."
-      ],
-      "correct": [1],
-      "explanation": "L’acronimo VAK indica i canali visivo, uditivo e cinestetico, secondo la classificazione usata dal modello.",
-      "note": ""
+      "topic": "Marketing territoriale e reti locali",
+      "type": "open",
+      "question": "Nell’ambito dell’organizzazione di escursioni e tour ambientali, come può una guida escursionistica ambientale utilizzare strategie di marketing territoriale e competenze relazionali per collaborare efficacemente con operatori locali, istituzioni pubbliche e comunità residenti, garantendo nello stesso tempo la sostenibilità ambientale e culturale del territorio? (Massimo 15 righe)",
+      "answers": [],
+      "correct": [],
+      "explanation": "Traccia suggerita: analisi del territorio e degli stakeholder, progettazione partecipata, rete fra operatori pubblici e privati, comunicazione assertiva, valorizzazione dell’identità locale, gestione dei flussi e controllo degli impatti.",
+      "exampleAnswer": "La guida può iniziare analizzando risorse, identità, bisogni e limiti del territorio.\nDeve individuare i visitatori a cui rivolgere escursioni coerenti con l’ambiente locale.\nPuò costruire proposte integrate con agriturismi, artigiani e produttori del luogo.\nLe associazioni possono contribuire con conoscenze, volontariato e memoria della comunità.\nComuni e Parchi vanno coinvolti per autorizzazioni, tutela e coordinamento delle iniziative.\nLa progettazione partecipata permette di definire obiettivi e responsabilità condivisi.\nCalendari, servizi e comunicazione possono essere organizzati attraverso una rete stabile.\nLa guida deve ascoltare gli interlocutori e comunicare in modo chiaro, assertivo e rispettoso.\nEventuali conflitti vanno affrontati cercando soluzioni concrete e vantaggiose per la comunità.\nLa promozione deve raccontare l’identità autentica del luogo senza creare immagini artificiali.\nSito, social e materiali informativi devono indicare correttamente difficoltà, regole e servizi.\nI gruppi vanno dimensionati e distribuiti nello spazio e nel tempo per ridurre la pressione.\nÈ utile privilegiare produzioni locali, mobilità sostenibile e comportamenti rispettosi.\nLa guida deve valorizzare tradizioni e patrimonio culturale senza banalizzarli o spettacolarizzarli.\nInfine deve raccogliere riscontri e controllare gli effetti ambientali, sociali ed economici.\n\nDa approfondire: analisi del territorio e degli stakeholder, progettazione partecipata, rete fra operatori pubblici e privati, comunicazione assertiva, valorizzazione dell’identità locale, gestione dei flussi e controllo degli impatti.",
+      "reference": "Classroom — 1.Corso Accompagnatore Naturalistico - Economia turistica Silvia Badriotto.pdf; Fondamenti marketing territoriale - Silvia Badriotto.pdf",
+      "note": "",
+      "hint": "Spunti da sviluppare: analisi del territorio e degli stakeholder, progettazione partecipata, rete fra operatori pubblici e privati, comunicazione assertiva, valorizzazione dell’identità locale, gestione dei flussi e controllo degli impatti.",
+      "reviewStatus": "Classroom verificato — 19 ottobre 2026"
     }
   ]
 }

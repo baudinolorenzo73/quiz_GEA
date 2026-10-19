@@ -1,10 +1,17 @@
-QUIZ GEA — v2.3.7
+QUIZ GEA — v2.3.8
+
+Novità della versione 2.3.8
+- Aggiunta una domanda aperta su marketing territoriale, collaborazione con operatori locali, istituzioni e comunità residenti.
+- Il DB Marketing e comunicazione 1.1.0 contiene le 2 domande a crocetta documentate nelle immagini e 1 domanda aperta.
+- Suggerimenti sintetici visibili agli studenti; risposta-esempio di 15 righe visibile soltanto in modalità amministratore.
+- Domanda e risposta verificate sui materiali Classroom di economia turistica, marketing territoriale e comunicazione.
+- Il gruppo dei sei DB tematici contiene ora 104 domande.
 
 Novità della versione 2.3.7
-- Aggiunto il database separato «Marketing e comunicazione» con 10 domande a risposta chiusa.
+- Aggiunto il database separato «Marketing e comunicazione»; nella versione successiva sono state mantenute soltanto le tre domande confermate.
 - Le domande sono state convertite nel formato nativo di Quiz GEA, con spiegazione dell’errore, note persistenti e filtri per argomento.
 - Il pulsante «Installa tutto» rileva e installa automaticamente anche il nuovo database.
-- Il gruppo dei sei DB tematici contiene ora 111 domande; il catalogo comprende sette database contando anche la banca completa v5.19.
+- Il catalogo comprende sette database contando anche la banca completa v5.19.
 - La domanda sugli adempimenti fiscali è formulata come principio generale e invita a verificare il caso concreto.
 
 Novità della versione 2.3.6
@@ -57,9 +64,9 @@ Correzione della versione 2.3.3
 - La cache PWA privilegia le pagine aggiornate online, conserva la copia offline e non elimina le cache di altre applicazioni.
 
 Pubblicazione della correzione
-1. Estrarre lo ZIP e pubblicare il contenuto della cartella Quiz_GEA_PWA_v2.3.7 nella cartella del sito esistente.
+1. Estrarre lo ZIP e pubblicare il contenuto della cartella Quiz_GEA_PWA_v2.3.8 nella cartella del sito esistente.
 2. Sostituire anche index.html, Quiz_GEA_unificato.html, sw.js e db-catalog.json, oltre ai sette JSON.
-3. Riaprire il sito e verificare la versione 2.3.7. Se resta la versione vecchia usare Aggiorna programma ora, oppure ricaricare il sito.
+3. Riaprire il sito e verificare la versione 2.3.8. Se resta la versione vecchia usare Aggiorna programma ora, oppure ricaricare il sito.
 4. Non cancellare i dati del sito: contengono note, risultati e domande personali.
 
 Correzione della versione 2.3.2

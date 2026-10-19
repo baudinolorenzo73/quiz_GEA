@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "updated": "2026-10-19",
   "app": {
-    "version": "2.3.5",
+    "version": "2.3.7",
     "file": "index.html",
     "serviceWorker": "sw.js"
   },
@@ -31,9 +31,9 @@
     {
       "id": "storia",
       "title": "Database Quiz GEA — Storia",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "file": "DB_Quiz_GEA_storia.json",
-      "questions": 5
+      "questions": 12
     },
     {
       "id": "fauna",
@@ -41,6 +41,13 @@
       "version": "1.1.0",
       "file": "DB_Quiz_GEA_fauna.json",
       "questions": 1
+    },
+    {
+      "id": "marketing-comunicazione",
+      "title": "Database Quiz GEA — Marketing e comunicazione",
+      "version": "1.0.0",
+      "file": "DB_Quiz_GEA_marketing_comunicazione.json",
+      "questions": 10
     },
     {
       "id": "simulatore-gea-v519",

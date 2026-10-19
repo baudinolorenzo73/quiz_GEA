@@ -1,10 +1,29 @@
-QUIZ GEA — v2.3.5
+QUIZ GEA — v2.3.7
 
-Novità della versione 2.3.5
+Novità della versione 2.3.7
+- Aggiunto il database separato «Marketing e comunicazione» con 10 domande a risposta chiusa.
+- Le domande sono state convertite nel formato nativo di Quiz GEA, con spiegazione dell’errore, note persistenti e filtri per argomento.
+- Il pulsante «Installa tutto» rileva e installa automaticamente anche il nuovo database.
+- Il gruppo dei sei DB tematici contiene ora 111 domande; il catalogo comprende sette database contando anche la banca completa v5.19.
+- La domanda sugli adempimenti fiscali è formulata come principio generale e invita a verificare il caso concreto.
+
+Novità della versione 2.3.6
+- Nuovo pulsante «Installa tutto» direttamente nella prima pagina.
+- Su Android e Windows installa o aggiorna tutti i database inclusi e avvia l’installazione PWA del programma.
+- Se il browser non consente l’apertura automatica, mostra le istruzioni specifiche per Chrome su Android e per Chrome o Edge su Windows.
+- Se l’app è già installata, controlla e applica gli aggiornamenti di programma e database.
+
+Correzione della versione 2.3.5
 - Le risposte multiple parzialmente corrette sono indicate come «incomplete» in giallo.
 - Ogni risposta incompleta mostra la percentuale di errore e riceve un punteggio proporzionale.
 - Le opzioni errate selezionate riducono il credito parziale, così selezionare tutte le opzioni non assegna il punteggio pieno.
 - La percentuale finale, la media delle sessioni e il riepilogo per argomento includono il credito parziale.
+
+Aggiornamento Database Storia 1.2.0
+- Aggiunte 7 domande aperte: siti UNESCO piemontesi, Langhe-Roero e Monferrato, infernot, forti di Fenestrelle ed Exilles, battaglia dell’Assietta, Residenze Sabaude, Sigerico e Via Francigena, rapporto tra Valdesi e valli alpine.
+- Il DB Storia contiene ora 12 domande aperte; il gruppo dei cinque DB separati contiene 101 domande.
+- Suggerimenti visibili agli studenti; risposte di esempio estese disponibili soltanto in modalità amministratore.
+- Fonti: materiali Classroom e, per i dettagli UNESCO non presenti nelle dispense, schede ufficiali UNESCO e Regione Piemonte.
 
 Correzione della versione 2.3.4
 - Pagina iniziale semplificata: tre modalità visibili, Quiz + aperte, Solo quiz e Solo aperte.
@@ -38,9 +57,9 @@ Correzione della versione 2.3.3
 - La cache PWA privilegia le pagine aggiornate online, conserva la copia offline e non elimina le cache di altre applicazioni.
 
 Pubblicazione della correzione
-1. Estrarre lo ZIP e pubblicare il contenuto della cartella Quiz_GEA_PWA_v2.3.5 nella cartella del sito esistente.
-2. Sostituire anche index.html, Quiz_GEA_unificato.html, sw.js e db-catalog.json, oltre ai sei JSON.
-3. Riaprire il sito e verificare la versione 2.3.3. Se resta la versione vecchia usare Aggiorna programma ora, oppure ricaricare il sito.
+1. Estrarre lo ZIP e pubblicare il contenuto della cartella Quiz_GEA_PWA_v2.3.7 nella cartella del sito esistente.
+2. Sostituire anche index.html, Quiz_GEA_unificato.html, sw.js e db-catalog.json, oltre ai sette JSON.
+3. Riaprire il sito e verificare la versione 2.3.7. Se resta la versione vecchia usare Aggiorna programma ora, oppure ricaricare il sito.
 4. Non cancellare i dati del sito: contengono note, risultati e domande personali.
 
 Correzione della versione 2.3.2
@@ -118,7 +137,7 @@ Aggiornamento del programma
 
 Aggiornamento dei database
 - Programma e database si aggiornano separatamente: se il motore è stabile puoi controllare soltanto i DB.
-- I database sono separati: Botanica, Geologia, Ecologia, Storia e Fauna.
+- I database sono separati: Botanica, Geologia, Ecologia, Storia, Fauna e Marketing e comunicazione.
 - Per rendere disponibile un nuovo DB, sostituire il relativo JSON e aumentare la sua versione sia nel JSON sia in db-catalog.json.
 - Il pulsante “Controlla aggiornamenti DB” confronta le versioni attive con il catalogo.
 - “Aggiorna DB ora” scarica le nuove domande conservando le note personali e le domande aggiunte dall’utente.

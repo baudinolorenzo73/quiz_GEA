@@ -1,4 +1,4 @@
-QUIZ GEA 2.3.5 — CONTROLLO DELLA CONFIGURAZIONE E DEL CREDITO PARZIALE
+QUIZ GEA 2.3.7 — CONTROLLO DELLA CONFIGURAZIONE, INSTALLAZIONE E DEL CREDITO PARZIALE
 Data: 19 ottobre 2026
 
 Nuovo percorso
@@ -21,8 +21,22 @@ Verifiche automatiche
 5 verifiche del comportamento della cache PWA superate.
 Controllati: avvio, menu Database, modalità e quantità, persistenza al riavvio, selezione dei DB,
 filtri, test misto, revisione, percentuale, note, importazione e aggiornamenti.
-Sei archivi JSON validi, conteggi del catalogo coerenti: 30 botanica, 21 geologia,
-37 ecologia, 5 storia, 1 fauna, 657 banca completa.
+Sette archivi JSON validi, conteggi del catalogo coerenti: 30 botanica, 21 geologia,
+37 ecologia, 12 storia, 1 fauna, 10 marketing e comunicazione, 657 banca completa.
+
+Aggiornamento Marketing e comunicazione
+10 domande chiuse convertite nel formato nativo, con spiegazione dell’errore, argomenti e note.
+Il nuovo DB separato viene rilevato automaticamente dal catalogo e da «Installa tutto».
+
+Aggiornamento contenuti Storia
+7 nuove domande aperte controllate sui materiali Classroom. I dettagli sul sito UNESCO dei
+Paesaggi vitivinicoli e sugli infernot sono stati verificati anche sulle fonti ufficiali UNESCO
+e Regione Piemonte. Le risposte estese restano protette dalla modalità amministratore.
+
+Installazione unificata
+Il pulsante «Installa tutto» è visibile nella prima pagina. Rileva e installa i DB del catalogo,
+applica gli aggiornamenti disponibili e usa il prompt PWA del browser su Android e Windows.
+Quando il prompt non è disponibile, mostra le istruzioni manuali adatte alla piattaforma.
 
 I test sono automatici su DOM simulato; non sostituiscono una verifica visiva sul tablet dopo la pubblicazione.
 

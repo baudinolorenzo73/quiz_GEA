@@ -1,0 +1,76 @@
+QUIZ GEA — v2.3.0
+
+Novità della versione 2.3
+- Menu “Database” sempre disponibile nella barra superiore.
+- Elenco persistente di tutti i database installati o importati.
+- Selezione multipla tramite spunte, con attivazione contemporanea di più DB.
+- Conteggi separati per ogni DB: Quiz a crocetta e domande Aperte.
+- Scelta rapida nello stesso menu tra Quiz, Aperte oppure entrambe le tipologie.
+- Unione automatica dei DB selezionati con eliminazione delle domande duplicate.
+- Le domande aggiunte dall'amministratore vengono conservate nel DB locale “Domande personali”.
+- Importazioni e aggiornamenti mantengono separati gli archivi nell'elenco dei DB installati.
+
+Novità della versione 2.2
+- Estrazione proporzionale alle 270 ore del programma regionale quando il DB caricato contiene i pesi didattici.
+- Gestione delle domande aperte segnate come probabili o sicure: mescola, dai priorità oppure escludi.
+- Risultati delle domande chiuse suddivisi per argomento, con percentuale da recuperare.
+- Pulsante “Test mirato sugli errori”: ripropone gli errori e aggiunge domande degli stessi argomenti.
+- Le statistiche per argomento vengono conservate nello storico locale delle sessioni.
+- Il DB completo è aggiornato al formato 5.19-compat-1.1 e contiene i pesi dei 21 argomenti del corso.
+
+Novità della versione 2.1
+- Nuovo DB compatibile “Banca completa v5.19”: 657 domande, delle quali 527 chiuse e 130 aperte.
+- Eliminato un doppione reale relativo all'habitat del camoscio.
+- Memoria anti ripetizione configurabile da 0 a 8 sessioni.
+- Pulsanti A− e A+ per regolare il testo delle domande e delle risposte.
+- Collegamenti alle dispense quando nel DB è presente un riferimento Google Drive.
+- Durante l'importazione di più DB, le domande con testo identico vengono incluse una sola volta.
+- I punti chiave delle 130 domande aperte sono visibili come esempio soltanto in modalità amministratore.
+
+Come usare il DB completo
+1. Aprire Configurazione → Database.
+2. Importare DB_Quiz_GEA_banca_completa_v5.19.json.
+3. Scegliere modalità, filtri e quantità da Configurazione → Test e filtri.
+Il DB completo contiene già la banca del simulatore v5.19: in genere non occorre unirlo agli archivi tematici più piccoli.
+
+Avvio online/PWA
+1. Pubblicare tutti i file del pacchetto nella stessa cartella su un sito HTTPS, per esempio GitHub Pages.
+2. Aprire index.html con Chrome o Edge.
+3. Premere “Installa programma” nella scheda Configurazione → Programma.
+
+Uso del quiz
+- La prima pagina mostra la modalità del test, i dati essenziali del database, la media e i pulsanti per iniziare, vedere le regole e il riepilogo.
+- Configurazione → Test contiene materie, origini, filtri (compreso quello per note), quantità di domande aperte/a crocetta, tempi e ordine casuale.
+- Configurazione → Database importa anche più JSON insieme e consente all'amministratore di aggiungere domande.
+- Le domande aperte non ricevono un punteggio automatico: testo scritto e spunti sono visibili alla consegna.
+- Le risposte a crocetta mostrano quelle corrette e la spiegazione degli errori. La sessione può essere rivista prima di consegnare.
+
+Accesso amministratore semplice
+- Aprire Configurazione → Admin e inserire il codice iniziale scelto dal proprietario durante la preparazione del quiz.
+- La modalità studente mostra soltanto spunti sintetici per le domande aperte; l'admin vede anche l'esempio lungo, da ampliare, dopo la verifica, nel risultato e nel riepilogo.
+- Per modificare il codice: accedere come admin, poi usare "Cambia codice" indicando il vecchio e due volte il nuovo (almeno 8 caratteri). Il nuovo codice resta su quel browser. Conservane una copia privata.
+- L'accesso admin termina quando si ricarica la pagina. Svuotare i dati del sito ripristina il codice iniziale. Su altri dispositivi occorre impostare il nuovo codice separatamente.
+- È un semplice blocco dell'interfaccia, non una protezione dei dati: nel file JSON e nel codice sorgente le risposte sono leggibili. Per un accesso riservato davvero soltanto al proprietario occorre un servizio con autenticazione lato server.
+- Le 13 risposte estese sono state confrontate con dispense in Google Drive/Classroom, circa 15 frasi ciascuna e un invito ad ampliare. Le 5 risposte relative al Bosco della Partecipanza di Trino conservano il testo precedente, senza ampliamento non verificato sulle dispense Classroom.
+
+Aggiornamento del programma
+- Il pulsante “Controlla programma” confronta la versione installata con quella indicata in db-catalog.json.
+- Se esiste una versione più recente, compare “Aggiorna programma ora”.
+- L’aggiornamento elimina la vecchia cache e ricarica il motore, senza cancellare note, risultati o database salvati.
+- Gli esempi delle domande aperte sono visibili solo in modalità admin nell'interfaccia, quando disponibile con la fonte di controllo.
+- Il pulsante “Regole dell’esame”, presente nella prima pagina, apre la sintesi di struttura, punteggi, soglie, modalità e criteri di valutazione. Non contiene strategie o consigli di studio.
+- Il pulsante “Riepilogo domande” mostra i dati dei DB attualmente caricati: totali, tipologie, materie, origini e l’elenco completo ricercabile con risposte, spiegazioni, note e fonti. Il riepilogo viene ricostruito dalla memoria ogni volta che viene aperto o aggiornato.
+- La configurazione del test permette di scegliere modalità mista, solo domande a crocetta o solo domande aperte; quantità e tempo sono impostabili separatamente per le due tipologie.
+
+Aggiornamento dei database
+- Programma e database si aggiornano separatamente: se il motore è stabile puoi controllare soltanto i DB.
+- I database sono separati: Botanica, Geologia, Ecologia, Storia e Fauna.
+- Per rendere disponibile un nuovo DB, sostituire il relativo JSON e aumentare la sua versione sia nel JSON sia in db-catalog.json.
+- Il pulsante “Controlla aggiornamenti DB” confronta le versioni attive con il catalogo.
+- “Aggiorna DB ora” scarica le nuove domande conservando le note personali e le domande aggiunte dall’utente.
+
+Uso da file locale
+- Il quiz e l’importazione manuale dei JSON funzionano anche aprendo direttamente l’HTML.
+- L’installazione PWA e gli aggiornamenti automatici richiedono HTTPS oppure localhost.
+
+Firma: by Lollo ®2026

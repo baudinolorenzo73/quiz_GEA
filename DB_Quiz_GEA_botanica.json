@@ -1,0 +1,563 @@
+{
+  "schemaVersion": 1,
+  "meta": {
+    "title": "Database Quiz GEA — Botanica",
+    "version": "1.0.0",
+    "updated": "2026-10-18",
+    "note": "Database indipendente di Botanica. Testi rivisti nella grammatica e nella coerenza senza modificare la sostanza didattica. Supporta argomenti, note persistenti e filtri.",
+    "id": "botanica",
+    "updateFile": "DB_Quiz_GEA_botanica.json"
+  },
+  "questions": [
+    {
+      "id": "bot-001",
+      "category": "Botanica",
+      "topic": "Forme biologiche",
+      "type": "closed",
+      "question": "Indica la definizione corretta di albero.",
+      "answers": [
+        "Pianta perenne dal cui unico fusto legnoso partono ramificazioni laterali",
+        "Pianta acquatica priva di struttura legnosa",
+        "Pianta annuale che cresce solo in primavera e muore in autunno",
+        "Pianta con più fusti erbacei e senza ramificazioni"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Un albero è una pianta perenne legnosa con un fusto principale, dal quale si originano le ramificazioni laterali.",
+      "note": ""
+    },
+    {
+      "id": "bot-002",
+      "category": "Botanica",
+      "topic": "Morfologia fogliare",
+      "type": "closed",
+      "question": "Quali tipi di foglie conosci?",
+      "answers": [
+        "intera",
+        "semplice",
+        "rotonda",
+        "asimmetrica",
+        "composta",
+        "a squame"
+      ],
+      "correct": [
+        1,
+        4,
+        5
+      ],
+      "explanation": "Nel quiz i tipi richiesti sono la foglia semplice, composta e a squame. “Intera” indica un margine; “rotonda” e “asimmetrica” descrivono la forma.",
+      "note": ""
+    },
+    {
+      "id": "bot-003",
+      "category": "Botanica",
+      "topic": "Morfologia fogliare",
+      "type": "closed",
+      "question": "Indica le forme corrette della lamina fogliare.",
+      "answers": [
+        "dentata",
+        "a squame",
+        "flabellata",
+        "lanceolata",
+        "palmato-lobata",
+        "ellittica"
+      ],
+      "correct": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "explanation": "Flabellata, lanceolata, palmato-lobata ed ellittica descrivono la forma della lamina. “Dentata” riguarda il margine; “a squame” indica un tipo di foglia.",
+      "note": ""
+    },
+    {
+      "id": "bot-004",
+      "category": "Botanica",
+      "topic": "Morfologia fogliare",
+      "type": "closed",
+      "question": "“Ondulato” e “seghettato” sono due margini fogliari.",
+      "answers": [
+        "Vero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Sono entrambi termini usati per descrivere l’andamento del margine della lamina.",
+      "note": ""
+    },
+    {
+      "id": "bot-005",
+      "category": "Botanica",
+      "topic": "Morfologia fogliare",
+      "type": "closed",
+      "question": "Indica quali margini fogliari conosci.",
+      "answers": [
+        "dentato",
+        "intero",
+        "seghettato",
+        "crenato",
+        "rotondo",
+        "lobato"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Secondo la classificazione adottata dal quiz, i margini sono dentato, intero, seghettato e crenato. “Rotondo” descrive la forma; “lobato” viene trattato qui come forma della lamina.",
+      "note": ""
+    },
+    {
+      "id": "bot-006",
+      "category": "Botanica",
+      "topic": "Morfologia fogliare",
+      "type": "closed",
+      "question": "Indica i tipi di foglia composta che conosci.",
+      "answers": [
+        "bipennata",
+        "roncinata",
+        "paripennata",
+        "flabellata",
+        "imparipennata",
+        "alternata"
+      ],
+      "correct": [
+        0,
+        2,
+        4
+      ],
+      "explanation": "Le foglie composte possono essere bipennate, paripennate o imparipennate. Gli altri termini descrivono una forma, una disposizione o una suddivisione diversa.",
+      "note": ""
+    },
+    {
+      "id": "bot-007",
+      "category": "Botanica",
+      "topic": "Morfologia fogliare",
+      "type": "closed",
+      "question": "In una foglia la lamina può essere aghiforme?",
+      "answers": [
+        "Vero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le foglie aghiformi, tipiche di molte conifere, hanno una lamina stretta e allungata a forma di ago.",
+      "note": ""
+    },
+    {
+      "id": "bot-008",
+      "category": "Botanica",
+      "topic": "Forme biologiche",
+      "type": "closed",
+      "question": "Quale descrizione definisce correttamente un arbusto?",
+      "answers": [
+        "Pianta perenne legnosa con un unico fusto privo di ramificazioni alla base",
+        "Pianta policormica con un fusto centrale da cui si estendono i rami",
+        "Pianta perenne legnosa, policormica fin dalla base",
+        "Pianta legnosa annuale con prevalenza di ramificazioni nella parte alta"
+      ],
+      "correct": [
+        2
+      ],
+      "explanation": "L’arbusto è una pianta perenne legnosa con più fusti che si originano dalla base: per questo è definita policormica.",
+      "note": ""
+    },
+    {
+      "id": "bot-009",
+      "category": "Botanica",
+      "topic": "Forme biologiche",
+      "type": "closed",
+      "question": "Quali sono le caratteristiche di un albero sempreverde?",
+      "answers": [
+        "Le foglie cadono tutte insieme durante l’autunno",
+        "Presenta foglie sottili e delicate, sostituite ogni primavera",
+        "Mantiene le foglie solo durante l’estate",
+        "Mantiene sulla chioma foglie persistenti per tutto l’anno, spesso coriacee"
+      ],
+      "correct": [
+        3
+      ],
+      "explanation": "Una pianta sempreverde rinnova gradualmente le foglie e mantiene la chioma durante tutto l’anno; spesso le foglie sono coriacee e resistenti.",
+      "note": ""
+    },
+    {
+      "id": "bot-010",
+      "category": "Botanica",
+      "topic": "Forme biologiche",
+      "type": "closed",
+      "question": "Le caducifoglie perdono le foglie durante la stagione sfavorevole e, in inverno, presentano generalmente una chioma spoglia.",
+      "answers": [
+        "Vero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le caducifoglie perdono le foglie durante la stagione sfavorevole e restano generalmente spoglie in inverno.",
+      "note": ""
+    },
+    {
+      "id": "bot-011",
+      "category": "Botanica",
+      "topic": "Chioma e portamento",
+      "type": "closed",
+      "question": "Indica le tipologie corrette di chioma degli alberi e degli arbusti.",
+      "answers": [
+        "forma opposta",
+        "forma espansa",
+        "forma decombente",
+        "forma sferica",
+        "forma spontanea",
+        "forma fastigiata o piramidale"
+      ],
+      "correct": [
+        1,
+        3,
+        5
+      ],
+      "explanation": "Nel sistema adottato dal quiz, le forme di chioma richieste sono espansa, sferica e fastigiata o piramidale.",
+      "note": ""
+    },
+    {
+      "id": "bot-012",
+      "category": "Botanica",
+      "topic": "Crescita e ramificazione",
+      "type": "closed",
+      "question": "Il comportamento monopodiale è tipico del Ginkgo biloba.",
+      "answers": [
+        "Vero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Nel modello monopodiale l’asse principale continua a svilupparsi grazie alla gemma apicale, mantenendo la dominanza sui rami laterali.",
+      "note": ""
+    },
+    {
+      "id": "bot-013",
+      "category": "Botanica",
+      "topic": "Crescita e ramificazione",
+      "type": "closed",
+      "question": "In un albero, se le gemme sono opposte, non sempre i rami sono opposti.",
+      "answers": [
+        "Vero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Non tutte le gemme sviluppano un ramo: aborto, dormienza o danni possono alterare la disposizione visibile dei rami.",
+      "note": ""
+    },
+    {
+      "id": "bot-014",
+      "category": "Botanica",
+      "topic": "Crescita e ramificazione",
+      "type": "closed",
+      "question": "Qual è la definizione corretta di internodo?",
+      "answers": [
+        "Lo spazio tra la foglia e il picciolo",
+        "Il tratto di fusto compreso tra due nodi successivi",
+        "La zona in cui si formano le radici secondarie",
+        "La gemma principale situata all’apice del fusto"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "L’internodo è il tratto di fusto o ramo compreso tra due nodi successivi.",
+      "note": ""
+    },
+    {
+      "id": "bot-015",
+      "category": "Botanica",
+      "topic": "Anatomia vegetale",
+      "type": "closed",
+      "question": "Quale struttura, presente nei rami di forsizia e sambuco, permette gli scambi gassosi?",
+      "answers": [
+        "gemma fusiforme",
+        "pneumatoforo",
+        "lenticella",
+        "brachiblasto"
+      ],
+      "correct": [
+        2
+      ],
+      "explanation": "Le lenticelle sono piccole interruzioni del rivestimento esterno che permettono gli scambi gassosi nei fusti legnosi.",
+      "note": ""
+    },
+    {
+      "id": "bot-016",
+      "category": "Botanica",
+      "topic": "Crescita e ramificazione",
+      "type": "closed",
+      "question": "Come si chiamano i corti rametti, presenti su alcuni alberi, sui quali si inseriscono le foglie?",
+      "answers": [
+        "lenticelle",
+        "brindilli",
+        "brachiblasti",
+        "lamburde"
+      ],
+      "correct": [
+        2
+      ],
+      "explanation": "I brachiblasti sono rametti molto corti, con internodi ridotti, sui quali si inseriscono foglie o strutture riproduttive.",
+      "note": ""
+    },
+    {
+      "id": "bot-017",
+      "category": "Botanica",
+      "topic": "Crescita e ramificazione",
+      "type": "closed",
+      "question": "Quale struttura di una pianta da frutto è paragonabile al brachiblasto?",
+      "answers": [
+        "lamburda",
+        "gemma a legno",
+        "brindillo",
+        "gemma a fiore"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La lamburda è un corto ramo fruttifero tipico di varie pomacee e viene accostata al brachiblasto per la crescita molto ridotta.",
+      "note": ""
+    },
+    {
+      "id": "bot-018",
+      "category": "Botanica",
+      "topic": "Gemme e fruttificazione",
+      "type": "closed",
+      "question": "Su un ramo secondario di una pianta da frutto possono coesistere gemme miste.",
+      "answers": [
+        "Vero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le gemme miste contengono abbozzi sia vegetativi sia fiorali e possono essere presenti sui rami fruttiferi.",
+      "note": ""
+    },
+    {
+      "id": "bot-019",
+      "category": "Botanica",
+      "topic": "Tipologie di estensione",
+      "type": "closed",
+      "question": "Come si chiamano le piante che estendono i propri rami una sola volta all’anno?",
+      "answers": [
+        "di seconda estensione",
+        "caducifoglie",
+        "simpodiali",
+        "di prima estensione"
+      ],
+      "correct": [
+        3
+      ],
+      "explanation": "Le piante di prima estensione producono un’unica fase principale di allungamento annuale dei germogli.",
+      "note": ""
+    },
+    {
+      "id": "bot-020",
+      "category": "Botanica",
+      "topic": "Tipologie di estensione",
+      "type": "closed",
+      "question": "L’Acer palmatum 'Dissectum Atropurpureum' è una pianta di seconda estensione.",
+      "answers": [
+        "Vero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Nel sistema didattico adottato, questo acero può produrre una seconda fase di crescita dopo la prima estensione.",
+      "note": ""
+    },
+    {
+      "id": "bot-021",
+      "category": "Botanica",
+      "topic": "Tipologie di estensione",
+      "type": "closed",
+      "question": "Quali piante appartengono alla prima tipologia di estensione?",
+      "answers": [
+        "tasso",
+        "faggio",
+        "carpino",
+        "ginepro",
+        "Acer palmatum dissectum",
+        "cotonastro"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Nel quiz tasso, faggio e carpino sono classificati nella prima tipologia di estensione.",
+      "note": ""
+    },
+    {
+      "id": "bot-022",
+      "category": "Botanica",
+      "topic": "Tipologie di estensione",
+      "type": "closed",
+      "question": "Quali sono le caratteristiche distintive delle piante di terza tipologia di estensione?",
+      "answers": [
+        "Cotonastro e melo sono piante tipiche della terza estensione",
+        "La terza tipologia di estensione non esiste",
+        "Nella terza estensione le piante fruttificano e ramificano",
+        "La comparsa di gemme posteriori su un ramo indica che è possibile effettuare la potatura"
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "La terza estensione è collegata a ramificazione e fruttificazione; cotonastro e melo sono gli esempi indicati. Le gemme posteriori segnalano la possibilità di accorciare il ramo mantenendo punti di ripresa.",
+      "note": ""
+    },
+    {
+      "id": "bot-023",
+      "category": "Botanica",
+      "topic": "Nomenclatura botanica",
+      "type": "closed",
+      "question": "In Castanea sativa, l’epiteto “sativa” indica una pianta:",
+      "answers": [
+        "spontanea",
+        "ad alto fusto",
+        "coltivata",
+        "velenosa"
+      ],
+      "correct": [
+        2
+      ],
+      "explanation": "L’epiteto latino “sativa” richiama una specie coltivata o adatta alla coltivazione.",
+      "note": ""
+    },
+    {
+      "id": "bot-024",
+      "category": "Botanica",
+      "topic": "Specie del Piemonte",
+      "type": "closed",
+      "question": "Quale conifera è particolarmente diffusa in Piemonte?",
+      "answers": [
+        "Pinus pinaster",
+        "Larix decidua",
+        "Cedrus deodara",
+        "Picea abies"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "La risposta prevista è il larice europeo (Larix decidua), molto diffuso nell’arco alpino piemontese.",
+      "note": ""
+    },
+    {
+      "id": "bot-025",
+      "category": "Botanica",
+      "topic": "Ecologia delle specie",
+      "type": "closed",
+      "question": "Quale albero è strettamente legato alle sponde dei corsi d’acqua e tollera i ristagni idrici?",
+      "answers": [
+        "Photinia 'Red Robin'",
+        "Taxus baccata",
+        "ontano nero",
+        "Robinia pseudoacacia"
+      ],
+      "correct": [
+        2
+      ],
+      "explanation": "L’ontano nero (Alnus glutinosa) è tipico degli ambienti ripariali e dei suoli umidi o periodicamente saturi d’acqua.",
+      "note": ""
+    },
+    {
+      "id": "bot-026",
+      "category": "Botanica",
+      "topic": "Anatomia vegetale",
+      "type": "closed",
+      "question": "Quale delle seguenti strutture non si trova nel fusto di un albero?",
+      "answers": [
+        "il durame",
+        "gli stomi",
+        "il cambio",
+        "il fellogeno"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "Nel contesto del quiz, gli stomi sono strutture tipiche dell’epidermide fogliare. Nel fusto legnoso gli scambi gassosi avvengono soprattutto tramite le lenticelle.",
+      "note": ""
+    },
+    {
+      "id": "bot-027",
+      "category": "Botanica",
+      "topic": "Gruppi vegetali",
+      "type": "closed",
+      "question": "Le pteridofite sono piante con radici, fusto e foglie, ma prive di fiori.",
+      "answers": [
+        "Vero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le pteridofite sono piante vascolari prive di fiori e semi; si riproducono mediante spore.",
+      "note": ""
+    },
+    {
+      "id": "bot-028",
+      "category": "Botanica",
+      "topic": "Ambienti e vegetazione",
+      "type": "closed",
+      "question": "Come si chiama un’area dominata da piante erbacee, la cui altezza varia in base alle precipitazioni annue?",
+      "answers": [
+        "bosco",
+        "riserva protetta",
+        "prateria",
+        "palude"
+      ],
+      "correct": [
+        2
+      ],
+      "explanation": "La prateria è una formazione vegetale dominata da specie erbacee; altezza e densità dipendono anche dalla disponibilità idrica.",
+      "note": ""
+    },
+    {
+      "id": "bot-029",
+      "category": "Botanica",
+      "topic": "Ambienti e vegetazione",
+      "type": "closed",
+      "question": "La vegetazione subacquea ed emergente è tipica di quale ambiente con acque stagnanti?",
+      "answers": [
+        "una risaia",
+        "una palude",
+        "un lago di montagna",
+        "un bosco"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "Una palude presenta acque ferme o molto lente e ospita vegetazione idrofila sommersa, galleggiante ed emergente.",
+      "note": ""
+    },
+    {
+      "id": "bot-030",
+      "category": "Botanica",
+      "topic": "Bosco e normativa",
+      "type": "closed",
+      "question": "Il bosco è un terreno coperto da vegetazione arborea e arbustiva, con una superficie di almeno 2.000 m² e una larghezza media di almeno 20 m.",
+      "answers": [
+        "Vero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Il quiz considera vera la frase. Nella definizione normativa piemontese, i 20 m indicano la larghezza media minima, non l’altezza degli alberi.",
+      "note": ""
+    }
+  ]
+}

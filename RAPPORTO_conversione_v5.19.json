@@ -1,0 +1,21 @@
+{
+  "source": {
+    "databaseVersion": "2026.10.16-1",
+    "appVersion": "5.19",
+    "closed": 528,
+    "open": 130
+  },
+  "output": {
+    "questions": 657,
+    "closed": 527,
+    "open": 130
+  },
+  "skipped": [
+    {
+      "type": "closed",
+      "id": "cqualelhabitattipicodelcamoscioboschidiconifereposteaquotemedioalte|ripideprateriealpinedimediaedaltamontagna|zonemontaneepedemontatepiuomenoboscatemaripideeconpresenzadirocceestrapiombi",
+      "question": "Qual è l’habitat tipico del camoscio?",
+      "reason": "domanda duplicata"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "meta": {
+    "title": "Database Quiz GEA — Fauna",
+    "version": "1.1.0",
+    "updated": "2026-10-18",
+    "note": "Domanda aperta verificata sui materiali Classroom. La risposta è un esempio sintetico da ampliare.",
+    "id": "fauna",
+    "updateFile": "DB_Quiz_GEA_fauna.json"
+  },
+  "questions": [
+    {
+      "id": "fau-001",
+      "category": "Fauna",
+      "topic": "Comportamenti difensivi",
+      "type": "open",
+      "question": "Che cos’è la tanatosi e come viene utilizzata dalla natrice dal collare? (Massimo 15 righe)",
+      "answers": [],
+      "correct": [],
+      "explanation": "Traccia suggerita: significato del termine, simulazione della morte, funzione antipredatoria e sequenza dei comportamenti della natrice dal collare.",
+      "exampleAnswer": "La tanatosi è un comportamento con cui un animale simula la propria morte.\nIl termine deriva dal greco thanatos, che significa morte.\nPuò comparire come risposta a una minaccia o a un contatto.\nÈ descritta sia negli invertebrati sia nei vertebrati.\nHa una funzione difensiva: può indurre un aggressore a perdere interesse.\nLa natrice dal collare è l’esempio illustrato nella lezione sui rettili.\nÈ un serpente non velenoso, legato soprattutto agli ambienti umidi.\nSe disturbata può distendersi con il ventre rivolto verso l’alto.\nPuò irrigidire il corpo e mantenere la bocca aperta.\nA questi segnali può associare l’emissione di una secrezione cloacale maleodorante.\nLa secrezione rafforza l’impressione di trovarsi davanti a un animale morto.\nLa lezione descrive inoltre la possibile comparsa di sangue dalla bocca, detta autoemorrea.\nLa tanatosi non è una morte reale, ma parte del repertorio difensivo.\nNon tutti gli individui devono manifestare sempre l’intera sequenza descritta.\nDurante un’osservazione naturalistica non si deve provocarla manipolando o disturbando il serpente.\n\nDa approfondire: significato del termine, simulazione della morte, funzione antipredatoria e sequenza dei comportamenti della natrice dal collare.",
+      "reference": "Classroom — I RETTILI - LEZIONE 5.pdf",
+      "note": "",
+      "hint": "Spunti da sviluppare: significato del termine, simulazione della morte, funzione antipredatoria e sequenza dei comportamenti della natrice dal collare.",
+      "reviewStatus": "Classroom verificato — 18 ottobre 2026"
+    }
+  ]
+}

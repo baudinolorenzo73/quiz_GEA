@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-10-18",
+  "app": {
+    "version": "2.3.0",
+    "file": "index.html",
+    "serviceWorker": "sw.js"
+  },
+  "databases": [
+    {
+      "id": "botanica",
+      "title": "Database Quiz GEA — Botanica",
+      "version": "1.0.0",
+      "file": "DB_Quiz_GEA_botanica.json",
+      "questions": 30
+    },
+    {
+      "id": "geologia",
+      "title": "Database Quiz GEA — Geologia",
+      "version": "1.4.0",
+      "file": "DB_Quiz_GEA_geologia.json",
+      "questions": 21
+    },
+    {
+      "id": "ecologia",
+      "title": "Database Quiz GEA — Ecologia",
+      "version": "1.3.0",
+      "file": "DB_Quiz_GEA_ecologia.json",
+      "questions": 37
+    },
+    {
+      "id": "storia",
+      "title": "Database Quiz GEA — Storia",
+      "version": "1.1.0",
+      "file": "DB_Quiz_GEA_storia.json",
+      "questions": 5
+    },
+    {
+      "id": "fauna",
+      "title": "Database Quiz GEA — Fauna",
+      "version": "1.1.0",
+      "file": "DB_Quiz_GEA_fauna.json",
+      "questions": 1
+    },
+    {
+      "id": "simulatore-gea-v519",
+      "title": "Database Quiz GEA — Banca completa v5.19",
+      "version": "5.19-compat-1.1",
+      "file": "DB_Quiz_GEA_banca_completa_v5.19.json",
+      "questions": 657
+    }
+  ]
+}

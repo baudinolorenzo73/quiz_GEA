@@ -1,0 +1,368 @@
+{
+  "schemaVersion": 1,
+  "meta": {
+    "title": "Database Quiz GEA — Geologia",
+    "version": "1.4.0",
+    "updated": "2026-10-18",
+    "note": "Testi rivisti nella grammatica e nella coerenza senza modificare la sostanza didattica. Ogni domanda supporta note persistenti e filtro per argomento.",
+    "id": "geologia",
+    "updateFile": "DB_Quiz_GEA_geologia.json"
+  },
+  "questions": [
+    {
+      "id": "geo-001",
+      "category": "Geologia",
+      "topic": "Rocce metamorfiche",
+      "type": "closed",
+      "question": "Che cos’è uno scisto?",
+      "answers": [
+        "Litotipo tendente a sfaldarsi in lastre sottili",
+        "Roccia che si spacca ad angoli vivi",
+        "Forma di erosione tipica del quarzo"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Uno scisto è una roccia metamorfica caratterizzata da scistosità, cioè dalla tendenza a separarsi lungo superfici parallele in lastre o lamelle.",
+      "note": ""
+    },
+    {
+      "id": "geo-002",
+      "category": "Geologia",
+      "topic": "Rocce metamorfiche",
+      "type": "closed",
+      "question": "Qual è la corretta definizione di micascisto?",
+      "answers": [
+        "Roccia sedimentaria costituita da solfato di calcio idrato",
+        "Roccia sedimentaria costituita da antracite e litantrace",
+        "Roccia metamorfica di grado medio-alto formata da letti alterni di mica e quarzo"
+      ],
+      "correct": [
+        2
+      ],
+      "explanation": "Il micascisto è una roccia metamorfica ricca di miche, con quarzo e altri minerali. La disposizione orientata delle miche produce una marcata scistosità.",
+      "note": ""
+    },
+    {
+      "id": "geo-003",
+      "category": "Geologia",
+      "topic": "Rocce metamorfiche",
+      "type": "closed",
+      "question": "Che cos’è l’anatessi?",
+      "answers": [
+        "Processo di fusione parziale della roccia cristallina che avviene a grande profondità",
+        "Fenomeno di metamorfizzazione delle rocce sedimentarie",
+        "Fenomeno di erosione tipico delle rocce metamorfiche"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "L’anatessi è la fusione parziale di rocce preesistenti, generalmente nella crosta profonda, dovuta a temperature elevate. Può contribuire alla formazione di magmi granitici.",
+      "note": ""
+    },
+    {
+      "id": "geo-004",
+      "category": "Geologia",
+      "topic": "Rocce magmatiche",
+      "type": "closed",
+      "question": "Qual è la corretta definizione di diorite?",
+      "answers": [
+        "Roccia derivante dall’azione di forti pressioni orientate",
+        "Roccia costituita da una miscela equilibrata di minerali acidi e basici",
+        "Roccia formata da clasti di diametro superiore a 2 mm"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "La risposta indicata dalla scheda è la seconda. Più precisamente, la diorite è una roccia magmatica intrusiva a composizione intermedia, formata soprattutto da plagioclasio e minerali femici.",
+      "note": ""
+    },
+    {
+      "id": "geo-005",
+      "category": "Geologia",
+      "topic": "Rocce sedimentarie",
+      "type": "closed",
+      "question": "Qual è la corretta definizione di diagenesi?",
+      "answers": [
+        "Tipica struttura stratificata delle rocce plutoniche",
+        "Insieme di fenomeni che portano alla formazione delle rocce sedimentarie",
+        "Tipica tessitura di alcune rocce effusive"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "La diagenesi comprende i processi fisici, chimici e biologici che trasformano un sedimento in roccia sedimentaria, tra cui compattazione e cementazione.",
+      "note": ""
+    },
+    {
+      "id": "geo-006",
+      "category": "Geologia",
+      "topic": "Carsismo e acque sotterranee",
+      "type": "closed",
+      "question": "Che cos’è una condotta freatica?",
+      "answers": [
+        "Tratto di collegamento tra due cavità di origine tettonica",
+        "Zona di contatto tra roccia impermeabile e roccia sedimentaria",
+        "Cavità originata dalla pressione dell’acqua"
+      ],
+      "correct": [
+        2
+      ],
+      "explanation": "La risposta indicata dalla scheda è la terza. In speleologia, una condotta freatica si sviluppa sotto la falda, quando il passaggio è completamente riempito d’acqua; dissoluzione e pressione contribuiscono alla sua formazione.",
+      "note": ""
+    },
+    {
+      "id": "geo-007",
+      "category": "Geologia",
+      "topic": "Rocce magmatiche",
+      "type": "closed",
+      "question": "Quale tra queste è una roccia magmatica tipica del mantello terrestre?",
+      "answers": [
+        "migmatite",
+        "basalto",
+        "peridotite"
+      ],
+      "correct": [
+        2
+      ],
+      "explanation": "La peridotite è una roccia ultrabasica composta soprattutto da olivina e pirosseni ed è caratteristica del mantello superiore. Il basalto deriva spesso da magmi mantellari, ma si consolida prevalentemente nella crosta o in superficie.",
+      "note": ""
+    },
+    {
+      "id": "geo-008",
+      "category": "Geologia",
+      "topic": "Rocce magmatiche",
+      "type": "closed",
+      "question": "Quali minerali si utilizzano per classificare una roccia ignea nel diagramma di Streckeisen (QAPF)?",
+      "answers": [
+        "quarzo, plagioclasi, feldspati alcalini e feldspatoidi",
+        "quarzo, anfiboli, pirosseni e biotite",
+        "quarzo, biotite, olivina e muscovite"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Il diagramma QAPF usa le proporzioni modali di quarzo (Q), feldspati alcalini (A), plagioclasi (P) e feldspatoidi (F).",
+      "note": ""
+    },
+    {
+      "id": "geo-009",
+      "category": "Geologia",
+      "topic": "Rocce sedimentarie",
+      "type": "closed",
+      "question": "Quali rocce sono tipicamente stratificate?",
+      "answers": [
+        "le rocce filoniane",
+        "le rocce metamorfiche",
+        "le rocce sedimentarie"
+      ],
+      "correct": [
+        2
+      ],
+      "explanation": "La stratificazione è tipica delle rocce sedimentarie, formate dalla deposizione successiva di sedimenti. Le rocce metamorfiche possono invece presentare foliazione o bandeggio.",
+      "note": ""
+    },
+    {
+      "id": "geo-010",
+      "category": "Geologia",
+      "topic": "Rocce metamorfiche",
+      "type": "closed",
+      "question": "Quale tra queste rocce potrebbe essere il protolito di uno gneiss?",
+      "answers": [
+        "una peridotite",
+        "un granito",
+        "un gabbro"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "Uno gneiss può derivare dal metamorfismo di un granito: in questo caso viene definito ortogneiss. Esistono anche paragneiss derivati da rocce sedimentarie.",
+      "note": ""
+    },
+    {
+      "id": "geo-011",
+      "category": "Geologia",
+      "topic": "Tettonica",
+      "type": "closed",
+      "question": "Che cosa sono le faglie normali?",
+      "answers": [
+        "Faglie distensive nelle quali il blocco di tetto si abbassa rispetto al blocco di letto, con piano spesso ad alto angolo",
+        "Faglie inverse a basso angolo, generalmente inferiore a 45°",
+        "Faglie caratterizzate esclusivamente da movimento orizzontale"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le faglie normali sono strutture distensive: il blocco posto sopra il piano di faglia, detto tetto, scende rispetto al blocco di letto. La formulazione originale è stata corretta perché un angolo di immersione superiore a 90° non è fisicamente appropriato.",
+      "note": ""
+    },
+    {
+      "id": "geo-012",
+      "category": "Geologia",
+      "topic": "Geomorfologia",
+      "type": "closed",
+      "question": "Che cosa sono i conoidi di deiezione?",
+      "answers": [
+        "colate di detrito",
+        "forme del paesaggio costituite da sedimenti trasportati da un corso d’acqua e depositati allo sbocco sul fondovalle con forma a ventaglio",
+        "una tipologia di valanga"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "I conoidi di deiezione si formano quando un corso d’acqua perde energia allo sbocco di una valle e deposita i sedimenti, creando un accumulo a ventaglio.",
+      "note": ""
+    },
+    {
+      "id": "geo-013",
+      "category": "Geologia",
+      "topic": "Rischio geologico",
+      "type": "closed",
+      "question": "Che cosa si intende per rischio geologico?",
+      "answers": [
+        "Coincide esattamente con il dissesto idrogeologico",
+        "È la combinazione di pericolosità, vulnerabilità ed esposizione dei beni o delle persone",
+        "È soltanto il danno già provocato da una catastrofe naturale"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "Il rischio esprime le conseguenze attese di un fenomeno pericoloso e dipende dalla pericolosità, dalla vulnerabilità e dagli elementi esposti. La formulazione originale è stata completata includendo l’esposizione.",
+      "note": ""
+    },
+    {
+      "id": "geo-014",
+      "category": "Geologia",
+      "topic": "Geomorfologia",
+      "type": "closed",
+      "question": "Che cosa sono i block stream?",
+      "answers": [
+        "forme periglaciali costituite da accumuli o colate di blocchi rocciosi lungo un versante",
+        "crolli improvvisi di roccia da una parete",
+        "colate detritiche presenti esclusivamente nelle peridotiti del Massiccio Ultrabasico di Lanzo"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "I block stream, o fiumi di pietre, sono accumuli allungati di blocchi prodotti e mobilizzati soprattutto da processi periglaciali, come gelo e disgelo.",
+      "note": ""
+    },
+    {
+      "id": "geo-016",
+      "category": "Geologia",
+      "topic": "Rischio geologico",
+      "type": "closed",
+      "question": "Che cosa sono le D.G.P.V.?",
+      "answers": [
+        "una tipologia di valanga",
+        "frane innescate esclusivamente da terremoti",
+        "deformazioni gravitative profonde di versante che coinvolgono grandi volumi rocciosi e possono produrre sdoppiamenti di cresta e altre forme superficiali"
+      ],
+      "correct": [
+        2
+      ],
+      "explanation": "D.G.P.V. significa Deformazione Gravitativa Profonda di Versante. Coinvolge grandi masse rocciose e si sviluppa lentamente in profondità, producendo fratture, trincee e talvolta sdoppiamenti di cresta.",
+      "note": ""
+    },
+    {
+      "id": "geo-017",
+      "category": "Geologia",
+      "topic": "Rischio geologico",
+      "type": "closed",
+      "question": "Che cosa sono i debris flow?",
+      "answers": [
+        "colate costituite soltanto da ghiaccio e detriti",
+        "distacchi di roccia da una parete molto acclive",
+        "colate detritiche formate da una miscela di acqua, fango, rocce e materiale vegetale che si muove lungo un pendio o un corso d’acqua"
+      ],
+      "correct": [
+        2
+      ],
+      "explanation": "I debris flow sono flussi rapidi e molto densi di acqua e detrito. Possono trasportare fango, massi e tronchi e rappresentano un serio pericolo nei bacini montani.",
+      "note": ""
+    },
+    {
+      "id": "geo-018",
+      "category": "Geologia",
+      "topic": "Geomorfologia",
+      "type": "closed",
+      "question": "Quale di queste forme è un accumulo di blocchi legato soprattutto al gelo-disgelo e non richiede l’azione diretta di un ghiacciaio?",
+      "answers": [
+        "le rocce montonate",
+        "i block stream",
+        "i rock glacier"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "Le rocce montonate sono modellate direttamente dall’erosione glaciale. I block stream sono accumuli periglaciali prodotti soprattutto da gelo-disgelo e movimento lungo il versante, senza richiedere un ghiacciaio.",
+      "note": ""
+    },
+    {
+      "id": "geo-019",
+      "category": "Geologia",
+      "topic": "Minerali",
+      "type": "closed",
+      "question": "In quale di queste rocce si può trovare un minerale che, allo stato fibroso, può essere amiantifero?",
+      "answers": [
+        "la diorite",
+        "il gesso",
+        "il serpentinoscisto"
+      ],
+      "correct": [
+        2
+      ],
+      "explanation": "Nei serpentiniti e serpentinoscisti possono essere presenti minerali fibrosi, come il crisotilo, appartenenti al gruppo dell’amianto.",
+      "note": ""
+    },
+    {
+      "id": "geo-020",
+      "category": "Geologia",
+      "topic": "Minerali",
+      "type": "closed",
+      "question": "Che cos’è la muscovite, detta anche mica chiara?",
+      "answers": [
+        "un minerale lucente, spesso con riflessi argentati, presente in diverse rocce",
+        "un minerale esclusivo delle rocce magmatiche intrusive",
+        "un minerale presente soltanto nei micascisti"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La muscovite è una mica chiara facilmente sfaldabile in sottili lamelle elastiche. Può comparire in rocce magmatiche, metamorfiche e sedimentarie.",
+      "note": ""
+    },
+    {
+      "id": "geo-021",
+      "category": "Geologia",
+      "topic": "Geomorfologia",
+      "type": "closed",
+      "question": "Che cosa sono le marmitte dei giganti?",
+      "answers": [
+        "forme crio-nivali",
+        "cavità carsiche",
+        "cavità più o meno profonde scavate nella roccia dall’azione vorticosa dell’acqua e dei detriti trasportati"
+      ],
+      "correct": [
+        2
+      ],
+      "explanation": "Le marmitte dei giganti sono cavità cilindriche scavate dall’azione rotatoria dell’acqua, che mette in movimento sabbia, ciottoli e blocchi abrasivi. Possono formarsi anche nei torrenti alimentati dalla fusione glaciale.",
+      "note": ""
+    },
+    {
+      "id": "geo-022",
+      "category": "Geologia",
+      "topic": "Geomorfologia alpina",
+      "type": "open",
+      "question": "Quali possono essere i processi geomorfologici che modificano un paesaggio alpino? (Massimo 15 righe)",
+      "answers": [],
+      "correct": [],
+      "explanation": "Traccia suggerita: distingui i processi glaciali, fluviali e torrentizi, gravitativi, crionivali, carsici e legati all’alterazione delle rocce; collega ogni processo ad almeno una forma del paesaggio.",
+      "exampleAnswer": "Il paesaggio alpino cambia per processi di alterazione, erosione, trasporto e deposito.\nLe forze endogene formano i rilievi, mentre gli agenti esogeni li rimodellano.\nI ghiacciai erodono il substrato mediante abrasione e distacco di materiale.\nNe restano valli a U, rocce montonate e superfici con strie glaciali.\nIl trasporto e la deposizione dei detriti producono morene e massi erratici.\nLe acque piovane provocano ruscellamento e asportazione del suolo lungo i versanti.\nFiumi e torrenti incidono gli alvei e trasportano sedimenti di dimensioni differenti.\nL’erosione fluviale può generare valli a V, incisioni e marmitte dei giganti.\nQuando la corrente perde energia, i materiali si depositano formando anche conoidi.\nLa gravità muove i detriti verso il basso e alimenta accumuli ai piedi delle pareti.\nCrolli e frane modificano rapidamente l’assetto di un versante.\nIl gelo e disgelo dell’acqua nelle fratture contribuisce alla frammentazione delle rocce.\nL’alterazione chimica trasforma i minerali e la dissoluzione delle rocce carbonatiche produce carsismo.\nGli organismi, attraverso radici e altre attività, partecipano ad alterazione e formazione del suolo.\nLitologia, pendenza, fratturazione, acqua, clima e vegetazione condizionano l’intensità di questi processi.\n\nDa approfondire: distingui i processi glaciali, fluviali e torrentizi, gravitativi, crionivali, carsici e legati all’alterazione delle rocce; collega ogni processo ad almeno una forma del paesaggio.",
+      "reference": "Classroom — Geomorfologia (3).pdf",
+      "note": "",
+      "hint": "Spunti da sviluppare: distingui i processi glaciali, fluviali e torrentizi, gravitativi, crionivali, carsici e legati all’alterazione delle rocce; collega ogni processo ad almeno una forma del paesaggio.",
+      "reviewStatus": "Classroom verificato — 18 ottobre 2026"
+    }
+  ]
+}

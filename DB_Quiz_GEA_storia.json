@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "meta": {
+    "title": "Database Quiz GEA — Storia",
+    "version": "1.1.0",
+    "updated": "2026-10-18",
+    "note": "Domande aperte verificate sui materiali Classroom. Le risposte sono esempi sintetici da ampliare.",
+    "id": "storia",
+    "updateFile": "DB_Quiz_GEA_storia.json"
+  },
+  "questions": [
+    {
+      "id": "sto-001",
+      "category": "Storia",
+      "topic": "Sentiero dei Franchi",
+      "type": "open",
+      "question": "Che cos’è il Sentiero dei Franchi e a quale episodio storico viene tradizionalmente collegato? (Massimo 15 righe)",
+      "answers": [],
+      "correct": [],
+      "explanation": "Traccia suggerita: percorso escursionistico attuale, collegamento ipotetico con Carlo Magno, anno 773, Battaglia delle Chiuse e principali luoghi attraversati.",
+      "exampleAnswer": "Il Sentiero dei Franchi è oggi un itinerario escursionistico della Valle di Susa.\nIl materiale del corso ne indica uno sviluppo di circa sessanta chilometri.\nCollega Oulx con la Sacra di San Michele, all’imbocco della valle.\nLa sua denominazione richiama un episodio della storia carolingia.\nNel 773 Carlo Magno affrontò i Longobardi presso le Chiuse.\nLa tradizione collega il sentiero all’aggiramento delle difese poste nel fondovalle.\nLe truppe franche avrebbero seguito un passaggio più alto sui versanti.\nIl collegamento con l’attuale itinerario è presentato nelle slide come ipotetico.\nNon va quindi descritto come una ricostruzione documentata di ogni tratto militare.\nIl cammino mette oggi in relazione paesaggi naturali e testimonianze religiose.\nIl corso ricorda l’Abbadia di Oulx e Madonna della Losa.\nCita inoltre le certose di Banda e di Montebenedetto.\nLa Sacra di San Michele rappresenta un riferimento conclusivo dell’itinerario.\nL’interesse del percorso comprende così storia, patrimonio culturale e ambienti montani.\nUna guida deve distinguere il fatto storico, la tradizione e il tracciato escursionistico attuale.\n\nDa approfondire: percorso escursionistico attuale, collegamento ipotetico con Carlo Magno, anno 773, Battaglia delle Chiuse e principali luoghi attraversati.",
+      "reference": "Classroom — storia del Piemonte dall’antichità al medioevo.pdf",
+      "note": "",
+      "hint": "Spunti da sviluppare: percorso escursionistico attuale, collegamento ipotetico con Carlo Magno, anno 773, Battaglia delle Chiuse e principali luoghi attraversati.",
+      "reviewStatus": "Classroom verificato — 18 ottobre 2026"
+    },
+    {
+      "id": "sto-002",
+      "category": "Storia",
+      "topic": "Via Francigena in Val di Susa",
+      "type": "open",
+      "question": "Quale funzione aveva la Via Francigena e perché la Val di Susa costituiva un territorio importante per questo sistema di percorsi? (Massimo 15 righe)",
+      "answers": [],
+      "correct": [],
+      "explanation": "Traccia suggerita: rete di itinerari medievali, pellegrinaggio, commerci e scambi culturali; ruolo dei valichi alpini e dei luoghi religiosi valsusini.",
+      "exampleAnswer": "La Via Francigena è un sistema storico di collegamenti e percorsi di lunga distanza.\nNel Medioevo fu utilizzata dai pellegrini diretti verso Roma.\nLe strade erano percorse anche da mercanti, eserciti e altri viaggiatori.\nNon va immaginata come una sola linea rimasta immutata nei secoli.\nIl suo valore riguarda la circolazione delle persone, delle merci e delle conoscenze.\nLa Valle di Susa costituiva un importante corridoio tra l’Italia e l’Europa.\nIl materiale Classroom evidenzia il ruolo dei colli del Monginevro e del Moncenisio.\nIl superamento delle Alpi favoriva il passaggio lungo il territorio valsusino.\nLa presenza di viaggiatori contribuì agli scambi linguistici e culturali.\nLungo questi collegamenti si svilupparono luoghi di culto, ospitalità e assistenza.\nLe abbazie e gli insediamenti conservano testimonianze di questa funzione di transito.\nLa Sacra di San Michele è uno dei riferimenti culturali ricordati nel materiale.\nSusa e Avigliana permettono inoltre di leggere diverse fasi della storia della valle.\nLa Francigena è dunque un tema religioso, commerciale e territoriale insieme.\nUna spiegazione deve collegare i valichi, i percorsi e il patrimonio incontrato dai viaggiatori.\n\nDa approfondire: rete di itinerari medievali, pellegrinaggio, commerci e scambi culturali; ruolo dei valichi alpini e dei luoghi religiosi valsusini.",
+      "reference": "Classroom — Arte e Cultura_val susa e val sangone.pdf; storia del Piemonte dall’antichità al medioevo.pdf",
+      "note": "",
+      "hint": "Spunti da sviluppare: rete di itinerari medievali, pellegrinaggio, commerci e scambi culturali; ruolo dei valichi alpini e dei luoghi religiosi valsusini.",
+      "reviewStatus": "Classroom verificato — 18 ottobre 2026"
+    },
+    {
+      "id": "sto-003",
+      "category": "Storia",
+      "topic": "Cammini della Val di Susa",
+      "type": "open",
+      "question": "Quali sono le principali differenze tra il Sentiero dei Franchi e la Via Francigena in Val di Susa? (Massimo 15 righe)",
+      "answers": [],
+      "correct": [],
+      "explanation": "Traccia suggerita: origine, funzione, sviluppo territoriale, tradizione carolingia, pellegrinaggio e rete di collegamento europea.",
+      "exampleAnswer": "Sentiero dei Franchi e Via Francigena appartengono al patrimonio dei cammini valsusini.\nNon indicano però la stessa realtà storica né un unico tracciato.\nIl Sentiero dei Franchi è oggi un itinerario escursionistico lungo i versanti.\nCollega Oulx alla Sacra di San Michele per circa sessanta chilometri.\nIl nome è legato dalla tradizione alle truppe di Carlo Magno.\nIl riferimento è l’aggiramento delle difese longobarde durante gli eventi del 773.\nLe slide qualificano come ipotetica la corrispondenza con quel percorso militare.\nLa Via Francigena è invece una rete storica di collegamenti di lunga percorrenza.\nÈ associata al pellegrinaggio verso Roma e alla mobilità medievale.\nFu percorsa anche per commercio e per spostamenti militari.\nIn Valle di Susa si collega al ruolo dei valichi alpini verso l’Europa.\nIl materiale ricorda in particolare Monginevro e Moncenisio.\nEntrambi i temi consentono di presentare abbazie e paesaggi culturali della valle.\nLa vicinanza geografica non rende tuttavia identiche origine, funzione e percorso.\nIl confronto va quindi svolto distinguendo tradizione carolingia, mobilità medievale e uso escursionistico.\n\nDa approfondire: origine, funzione, sviluppo territoriale, tradizione carolingia, pellegrinaggio e rete di collegamento europea.",
+      "reference": "Classroom — storia del Piemonte dall’antichità al medioevo.pdf; Arte e Cultura_val susa e val sangone.pdf",
+      "note": "",
+      "hint": "Spunti da sviluppare: origine, funzione, sviluppo territoriale, tradizione carolingia, pellegrinaggio e rete di collegamento europea.",
+      "reviewStatus": "Classroom verificato — 18 ottobre 2026"
+    },
+    {
+      "id": "sto-004",
+      "category": "Storia",
+      "topic": "Valdesi",
+      "type": "open",
+      "question": "Chi sono i Valdesi e quali sono le principali tappe della loro storia religiosa in Piemonte? (Massimo 15 righe)",
+      "answers": [],
+      "correct": [],
+      "explanation": "Traccia suggerita: Pietro Valdo, origine medievale del movimento, adesione alla Riforma nel XVI secolo e radicamento nelle valli piemontesi.",
+      "exampleAnswer": "I Valdesi sono una comunità religiosa la cui origine risale al Medioevo.\nIl materiale del corso richiama Pietro Valdo e il XII secolo.\nIl movimento si collegava alla predicazione e alla ricerca di una vita evangelica.\nLa sua storia comprende condanne, persecuzioni e continuità della comunità.\nIn Piemonte il radicamento nelle valli alpine è un elemento territoriale importante.\nIl corso cita, fra i luoghi delle repressioni, Torre Pellice e Villar Pellice.\nRicorda anche Paesana e la Val Pragelato.\nNel XVI secolo le comunità aderirono alla Riforma protestante.\nOccorre distinguere questa adesione dalla più antica origine del movimento.\nNel Seicento il conflitto religioso si intrecciò con la politica sabauda ed europea.\nLe Pasque piemontesi del 1655 furono una fase particolarmente violenta.\nUna nuova repressione nel 1686 provocò prigionia, morti ed esilio.\nParte dei superstiti trovò rifugio a Ginevra.\nNel 1689 il Glorioso Rimpatrio segnò il ritorno di un gruppo di esuli.\nLa storia valdese collega quindi fede, resistenza comunitaria e territorio montano.\n\nDa approfondire: Pietro Valdo, origine medievale del movimento, adesione alla Riforma nel XVI secolo e radicamento nelle valli piemontesi.",
+      "reference": "Classroom — storia del Piemonte da ducato a regno.pdf",
+      "note": "",
+      "hint": "Spunti da sviluppare: Pietro Valdo, origine medievale del movimento, adesione alla Riforma nel XVI secolo e radicamento nelle valli piemontesi.",
+      "reviewStatus": "Classroom verificato — 18 ottobre 2026"
+    },
+    {
+      "id": "sto-005",
+      "category": "Storia",
+      "topic": "Valdesi",
+      "type": "open",
+      "question": "Quali eventi caratterizzarono le persecuzioni dei Valdesi nel Seicento e che cosa fu il Glorioso Rimpatrio? (Massimo 15 righe)",
+      "answers": [],
+      "correct": [],
+      "explanation": "Traccia suggerita: Pasque piemontesi del 1655, repressione del 1686, esilio a Ginevra e ritorno del 1689.",
+      "exampleAnswer": "Nel Seicento i Valdesi subirono persecuzioni nei territori del ducato sabaudo.\nLe motivazioni religiose si intrecciavano agli equilibri politici dell’epoca.\nNel 1655 avvennero le violenze note come Pasque piemontesi.\nIl materiale ricorda uccisioni e distruzione di numerose borgate di montagna.\nLe comunità furono duramente colpite nel loro insediamento e nella vita quotidiana.\nNel 1686 Vittorio Amedeo II riprese la repressione.\nLe slide collegano questa scelta anche alle pressioni di Luigi XIV.\nLa campagna provocò morti, incarcerazioni e allontanamento di parte della popolazione.\nAlcuni superstiti raggiunsero Ginevra e vissero la condizione di esuli.\nNel 1689 un gruppo tornò nelle proprie valli attraverso le Alpi.\nL’episodio viene ricordato come Glorioso Rimpatrio.\nNon fu un semplice trasferimento, ma un ritorno in un contesto ancora conflittuale.\nIl successivo mutamento delle alleanze sabaude favorì il reinsediamento.\nLa vicenda mostra il legame fra persecuzione religiosa, diplomazia e territorio alpino.\nNella risposta occorre distinguere le tappe del 1655, del 1686 e del 1689.\n\nDa approfondire: Pasque piemontesi del 1655, repressione del 1686, esilio a Ginevra e ritorno del 1689.",
+      "reference": "Classroom — storia del Piemonte da ducato a regno.pdf",
+      "note": "",
+      "hint": "Spunti da sviluppare: Pasque piemontesi del 1655, repressione del 1686, esilio a Ginevra e ritorno del 1689.",
+      "reviewStatus": "Classroom verificato — 18 ottobre 2026"
+    }
+  ]
+}

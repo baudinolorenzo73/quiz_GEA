@@ -1,4 +1,26 @@
-QUIZ GEA — v2.3.2
+QUIZ GEA — v2.3.3
+
+Correzione della versione 2.3.3
+- Riparato il menu Database: l'avvio cercava un testo introduttivo già rimosso e si interrompeva prima di attivare il pulsante.
+- Riparate le chiusure dei fogli di stile aggiunti nelle versioni precedenti.
+- All'avvio controlla programma e tutti i DB installati; il risultato compare sulla home con un pulsante per aprire gli aggiornamenti disponibili.
+- Il controllo viene ripetuto quando torna la connessione. Gli aggiornamenti richiedono la versione pubblicata HTTPS/PWA.
+- Il controllo non interrompe il quiz. L'applicazione degli aggiornamenti DB richiede di concludere la sessione.
+- Il caricamento automatico registra i nuovi DB senza cambiare la selezione o le spunte già in modifica.
+- Gli aggiornamenti conservano gli archivi selezionati, quelli personali e le note.
+- Le note vengono salvate anche nel DB di origine, per ritrovarle dopo aver cambiato selezione.
+- Importazioni controllate prima della registrazione; un JSON non valido non cambia gli archivi.
+- Unione più precisa: distingue aperte, chiuse e varianti con opzioni o soluzioni diverse; gestisce le collisioni degli ID.
+- Riparata la comparazione delle versioni con suffisso, per esempio 5.19-compat-1.1.
+- Evitata la doppia registrazione di una sessione consegnata due volte.
+- Corretto il test mirato per i DB senza codici argomento.
+- La cache PWA privilegia le pagine aggiornate online, conserva la copia offline e non elimina le cache di altre applicazioni.
+
+Pubblicazione della correzione
+1. Estrarre lo ZIP e pubblicare il contenuto della cartella Quiz_GEA_PWA_v2.3.3 nella cartella del sito esistente.
+2. Sostituire anche index.html, Quiz_GEA_unificato.html, sw.js e db-catalog.json, oltre ai sei JSON.
+3. Riaprire il sito e verificare la versione 2.3.3. Se resta la versione vecchia usare Aggiorna programma ora, oppure ricaricare il sito.
+4. Non cancellare i dati del sito: contengono note, risultati e domande personali.
 
 Correzione della versione 2.3.2
 - I database JSON presenti nel pacchetto vengono rilevati e registrati automaticamente dal catalogo all'avvio della versione HTTPS/PWA.

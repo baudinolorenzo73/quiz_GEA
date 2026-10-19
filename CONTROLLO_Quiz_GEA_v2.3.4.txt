@@ -1,0 +1,23 @@
+QUIZ GEA 2.3.4 — CONTROLLO DELLA CONFIGURAZIONE
+Data: 19 ottobre 2026
+
+Nuovo percorso
+Nella pagina iniziale si sceglie una sola volta fra Quiz + aperte, Solo quiz e Solo aperte.
+Il numero dei quiz e delle domande aperte si trova sotto queste tre modalità; i contatori non pertinenti vengono nascosti.
+Il riepilogo mostra subito quante domande saranno estratte. Se non sono disponibili domande, viene indicato di cambiare modalità, filtri o DB.
+La finestra «Filtri e opzioni» contiene materia, note, filtri aggiuntivi richiudibili, tempi, ordine ed estrazione avanzata.
+Il filtro singola/multipla riguarda solo i quiz; la modalità aperta si sceglie nella home.
+Il menu Database contiene soltanto gli archivi installati con le spunte di attivazione.
+La modalità viene conservata dopo la riapertura del programma e dopo la scelta di un altro database.
+
+Verifiche automatiche
+56 verifiche di funzionamento del motore e dell'interfaccia superate.
+5 verifiche del comportamento della cache PWA superate.
+Controllati: avvio, menu Database, modalità e quantità, persistenza al riavvio, selezione dei DB,
+filtri, test misto, revisione, percentuale, note, importazione e aggiornamenti.
+Sei archivi JSON validi, conteggi del catalogo coerenti: 30 botanica, 21 geologia,
+37 ecologia, 5 storia, 1 fauna, 657 banca completa.
+
+I test sono automatici su DOM simulato; non sostituiscono una verifica visiva sul tablet dopo la pubblicazione.
+
+by Lollo ®2026

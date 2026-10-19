@@ -1,4 +1,19 @@
-QUIZ GEA — v2.3.3
+QUIZ GEA — v2.3.4
+
+Novità della versione 2.3.4
+- Pagina iniziale semplificata: tre modalità visibili, Quiz + aperte, Solo quiz e Solo aperte.
+- I numeri delle domande si scelgono una sola volta nella pagina iniziale; si vede solo il numero pertinente alla modalità.
+- Il riepilogo del test è accanto alla selezione; in assenza di domande disponibili appare un'indicazione chiara.
+- Configurazione contiene filtri, tempi, ordine casuale e opzioni avanzate. Materia e note sono subito visibili; gli altri filtri sono richiudibili. Modalità e quantità non sono ripetute qui.
+- Il filtro Quiz singoli/multipli è facoltativo; «Domanda aperta» non compare più come filtro duplicato.
+- Il menu Database sceglie soltanto gli archivi tramite spunte; non chiede nuovamente il tipo di prova.
+- La modalità resta selezionata cambiando database e riaprendo il programma.
+- Il controllo di programma e DB all'avvio rimane visibile nella pagina iniziale.
+
+Come iniziare
+1. Scegliere i database dal menu in alto, se necessario.
+2. Nella pagina iniziale scegliere una delle tre modalità e il numero delle domande mostrate.
+3. Premere «Inizia il quiz». Per cambiare filtri o tempi usare «Filtri e opzioni».
 
 Correzione della versione 2.3.3
 - Riparato il menu Database: l'avvio cercava un testo introduttivo già rimosso e si interrompeva prima di attivare il pulsante.

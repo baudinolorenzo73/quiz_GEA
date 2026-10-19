@@ -1,4 +1,4 @@
-const CACHE="quiz-gea-core-v2.3.8";
+const CACHE="quiz-gea-core-v2.3.9";
 const CORE=["./","./index.html","./Quiz_GEA_unificato.html","./manifest.webmanifest","./icon-192.png","./icon-512.png","./db-catalog.json","./DB_Quiz_GEA_botanica.json","./DB_Quiz_GEA_geologia.json","./DB_Quiz_GEA_ecologia.json","./DB_Quiz_GEA_storia.json","./DB_Quiz_GEA_fauna.json","./DB_Quiz_GEA_marketing_comunicazione.json","./DB_Quiz_GEA_banca_completa_v5.19.json"];
 self.addEventListener("install",event=>event.waitUntil(caches.open(CACHE).then(cache=>Promise.allSettled(CORE.map(url=>cache.add(url)))).then(()=>self.skipWaiting())));
 self.addEventListener("activate",event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key.startsWith("quiz-gea-core-")&&key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim())));

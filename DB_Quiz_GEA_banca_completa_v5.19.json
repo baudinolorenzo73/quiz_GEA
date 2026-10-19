@@ -3,17 +3,22 @@
   "meta": {
     "id": "simulatore-gea-v519",
     "title": "Database Quiz GEA — Banca completa v5.19",
-    "version": "5.19-compat-1.1",
+    "version": "5.19-compat-1.2",
     "updated": "2026-10-19",
     "sourceFormat": "gea-question-bank",
     "sourceDatabaseVersion": "2026.10.16-1",
     "sourceAppVersion": "5.19",
-    "note": "Database estratto dal Simulatore GEA PWA v5.19 e convertito nel formato universale di Quiz GEA. Una domanda duplicata sul camoscio è stata rimossa. Le domande aperte conservano punti chiave e fonti nell’esempio riservato alla modalità amministratore. Sono inclusi i pesi orari del programma regionale per l’estrazione proporzionale.",
+    "note": "Database estratto dal Simulatore GEA PWA v5.19 e convertito nel formato universale di Quiz GEA. Una domanda duplicata sul camoscio è stata rimossa. Le domande aperte conservano punti chiave e fonti nell’esempio riservato alla modalità amministratore. Sono incluse 30 nuove domande ricavate dai due documenti Classroom/aggiunti4 su fisiologia vegetale ed evoluzione geologica del Piemonte.",
     "conversion": {
       "originalClosed": 528,
       "originalOpen": 130,
-      "convertedQuestions": 657,
-      "duplicatesRemoved": 1
+      "convertedQuestions": 687,
+      "duplicatesRemoved": 1,
+      "addedFromAggiunti4": {
+        "closed": 24,
+        "open": 6,
+        "total": 30
+      }
     },
     "course": {
       "hours": 270,
@@ -18321,6 +18326,936 @@
       "certain": false,
       "probableSource": "",
       "sourceNote": "Traccia di ripasso dal nuovo materiale; non indicata come sicura."
+    },
+    {
+      "id": "gea519-c-a4-001",
+      "bankNumber": "C529",
+      "originalId": "GEA-C-20261019-A4-001",
+      "category": "Botanica",
+      "topic": "botanica",
+      "source": "Classroom/aggiunti4 · 2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf",
+      "references": [
+        {
+          "drive_id": "1zpeEhwJClpb7pTGMzDzXBvJQxhDv8LZ9",
+          "title": "2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf",
+          "page": 2
+        }
+      ],
+      "reference": "2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf · pagina 2",
+      "question": "In quale direzione si muovono normalmente la linfa grezza e la linfa elaborata?",
+      "note": "",
+      "tags": [
+        "aggiunti4"
+      ],
+      "type": "closed",
+      "answers": [
+        "Entrambe salgono dalle radici alle foglie",
+        "La linfa grezza sale dalle radici alle foglie; la linfa elaborata raggiunge dalle foglie gli altri organi",
+        "La linfa grezza scende dalle foglie alle radici; la linfa elaborata sale"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "La linfa grezza trasporta soprattutto acqua e sali minerali verso la chioma; la linfa elaborata distribuisce zuccheri e derivati dalle zone fotosintetiche agli organi che li utilizzano o li accumulano."
+    },
+    {
+      "id": "gea519-c-a4-002",
+      "bankNumber": "C530",
+      "originalId": "GEA-C-20261019-A4-002",
+      "category": "Botanica",
+      "topic": "botanica",
+      "source": "Classroom/aggiunti4 · 2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf",
+      "references": [
+        {
+          "drive_id": "1zpeEhwJClpb7pTGMzDzXBvJQxhDv8LZ9",
+          "title": "2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf",
+          "page": 3
+        }
+      ],
+      "reference": "2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf · pagina 3",
+      "question": "Come viene assorbita soprattutto l’acqua dai peli radicali?",
+      "note": "",
+      "tags": [
+        "aggiunti4"
+      ],
+      "type": "closed",
+      "answers": [
+        "Per osmosi, con un trasporto passivo",
+        "Per fotosintesi, con consumo diretto di luce",
+        "Per respirazione, con liberazione di anidride carbonica"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "L’acqua attraversa passivamente le membrane per osmosi, seguendo la differenza di concentrazione tra la soluzione del terreno e quella delle cellule radicali."
+    },
+    {
+      "id": "gea519-c-a4-003",
+      "bankNumber": "C531",
+      "originalId": "GEA-C-20261019-A4-003",
+      "category": "Botanica",
+      "topic": "botanica",
+      "source": "Classroom/aggiunti4 · 2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf",
+      "references": [
+        {
+          "drive_id": "1zpeEhwJClpb7pTGMzDzXBvJQxhDv8LZ9",
+          "title": "2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf",
+          "page": 3
+        }
+      ],
+      "reference": "2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf · pagina 3",
+      "question": "Perché la traspirazione è descritta come una “pompa aspirante” della pianta?",
+      "note": "",
+      "tags": [
+        "aggiunti4"
+      ],
+      "type": "closed",
+      "answers": [
+        "Perché elimina sali minerali dalle radici",
+        "Perché l’acqua persa dagli stomi favorisce la risalita della linfa grezza",
+        "Perché trasforma direttamente l’acqua in glucosio"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "L’evaporazione dell’acqua attraverso gli stomi mantiene la tensione nella colonna d’acqua dei vasi e richiama nuova linfa grezza dalle radici."
+    },
+    {
+      "id": "gea519-c-a4-004",
+      "bankNumber": "C532",
+      "originalId": "GEA-C-20261019-A4-004",
+      "category": "Botanica",
+      "topic": "botanica",
+      "source": "Classroom/aggiunti4 · 2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf",
+      "references": [
+        {
+          "drive_id": "1zpeEhwJClpb7pTGMzDzXBvJQxhDv8LZ9",
+          "title": "2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf",
+          "page": 4
+        }
+      ],
+      "reference": "2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf · pagina 4",
+      "question": "Quali sono le principali materie prime della fotosintesi indicate nella dispensa?",
+      "note": "",
+      "tags": [
+        "aggiunti4"
+      ],
+      "type": "closed",
+      "answers": [
+        "Acqua e anidride carbonica, utilizzando energia luminosa",
+        "Ossigeno e sali minerali, utilizzando calore",
+        "Glucosio e ossigeno, utilizzando ATP"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Nei cloroplasti l’acqua e l’anidride carbonica vengono impiegate, grazie all’energia luminosa, per formare sostanze organiche; l’ossigeno è in gran parte liberato."
+    },
+    {
+      "id": "gea519-c-a4-005",
+      "bankNumber": "C533",
+      "originalId": "GEA-C-20261019-A4-005",
+      "category": "Botanica",
+      "topic": "botanica",
+      "source": "Classroom/aggiunti4 · 2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf",
+      "references": [
+        {
+          "drive_id": "1zpeEhwJClpb7pTGMzDzXBvJQxhDv8LZ9",
+          "title": "2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf",
+          "page": 4
+        }
+      ],
+      "reference": "2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf · pagina 4",
+      "question": "Che cosa avviene nella fase luminosa della fotosintesi?",
+      "note": "",
+      "tags": [
+        "aggiunti4"
+      ],
+      "type": "closed",
+      "answers": [
+        "La clorofilla cattura luce, si forma ATP e viene scissa acqua",
+        "Il glucosio viene demolito consumando ossigeno",
+        "Le radici trasformano sali minerali in linfa elaborata"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La fase luminosa cattura energia attraverso i pigmenti, produce un trasportatore energetico come l’ATP e comporta la scissione dell’acqua con liberazione di ossigeno."
+    },
+    {
+      "id": "gea519-c-a4-006",
+      "bankNumber": "C534",
+      "originalId": "GEA-C-20261019-A4-006",
+      "category": "Botanica",
+      "topic": "botanica",
+      "source": "Classroom/aggiunti4 · 2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf",
+      "references": [
+        {
+          "drive_id": "1zpeEhwJClpb7pTGMzDzXBvJQxhDv8LZ9",
+          "title": "2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf",
+          "page": 5
+        }
+      ],
+      "reference": "2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf · pagina 5",
+      "question": "Quale affermazione distingue correttamente fotosintesi e respirazione?",
+      "note": "",
+      "tags": [
+        "aggiunti4"
+      ],
+      "type": "closed",
+      "answers": [
+        "Entrambe avvengono soltanto nelle foglie e di giorno",
+        "La fotosintesi richiede luce; la respirazione avviene nelle cellule vive sia di giorno sia di notte",
+        "La respirazione produce glucosio e la fotosintesi lo demolisce"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "La fotosintesi è legata ai tessuti fotosintetici illuminati; la respirazione libera energia demolendo sostanze organiche ed è attiva in tutte le cellule vive anche di notte."
+    },
+    {
+      "id": "gea519-c-a4-007",
+      "bankNumber": "C535",
+      "originalId": "GEA-C-20261019-A4-007",
+      "category": "Botanica",
+      "topic": "botanica",
+      "source": "Classroom/aggiunti4 · 2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf",
+      "references": [
+        {
+          "drive_id": "1zpeEhwJClpb7pTGMzDzXBvJQxhDv8LZ9",
+          "title": "2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf",
+          "page": 6
+        }
+      ],
+      "reference": "2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf · pagina 6",
+      "question": "Dove si accumulano in modo importante le sostanze energetiche di riserva?",
+      "note": "",
+      "tags": [
+        "aggiunti4"
+      ],
+      "type": "closed",
+      "answers": [
+        "Soltanto negli stomi",
+        "Soprattutto nelle radici, ma anche in gemme, rami e tronco",
+        "Esclusivamente nei fiori"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "Amido, grassi e oli possono essere depositati in più organi; le radici sono una destinazione importante della linfa elaborata e sostengono la ripresa dopo il riposo."
+    },
+    {
+      "id": "gea519-c-a4-008",
+      "bankNumber": "C536",
+      "originalId": "GEA-C-20261019-A4-008",
+      "category": "Botanica",
+      "topic": "botanica",
+      "source": "Classroom/aggiunti4 · 2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf",
+      "references": [
+        {
+          "drive_id": "1zpeEhwJClpb7pTGMzDzXBvJQxhDv8LZ9",
+          "title": "2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf",
+          "page": 7
+        }
+      ],
+      "reference": "2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf · pagina 7",
+      "question": "Come può una pianta eliminare una parte dei sali presenti in eccesso?",
+      "note": "",
+      "tags": [
+        "aggiunti4"
+      ],
+      "type": "closed",
+      "answers": [
+        "Accumularli in foglie e corteccia e perderli con la loro caduta",
+        "Convertirli tutti in ossigeno attraverso gli stomi",
+        "Espellerli mediante organi escretori specializzati simili ai reni"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le piante non possiedono organi escretori come gli animali: una parte delle sostanze in eccesso viene isolata in tessuti destinati a cadere, come foglie e corteccia."
+    },
+    {
+      "id": "gea519-c-a4-009",
+      "bankNumber": "C537",
+      "originalId": "GEA-C-20261019-A4-009",
+      "category": "Botanica",
+      "topic": "botanica",
+      "source": "Classroom/aggiunti4 · 2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf",
+      "references": [
+        {
+          "drive_id": "1zpeEhwJClpb7pTGMzDzXBvJQxhDv8LZ9",
+          "title": "2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf",
+          "page": 8
+        }
+      ],
+      "reference": "2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf · pagina 8",
+      "question": "Quale effetto ha generalmente una ramificazione più orizzontale?",
+      "note": "",
+      "tags": [
+        "aggiunti4"
+      ],
+      "type": "closed",
+      "answers": [
+        "Riceve più linfa grezza e produce soprattutto legno",
+        "Favorisce il ristagno relativo di linfa elaborata e la differenziazione di gemme a fiore",
+        "Impedisce completamente la formazione di frutti"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "Nei rami più orizzontali la linfa elaborata defluisce meno rapidamente; la maggiore disponibilità di assimilati può favorire gemme a fiore e fruttificazione."
+    },
+    {
+      "id": "gea519-c-a4-010",
+      "bankNumber": "C538",
+      "originalId": "GEA-C-20261019-A4-010",
+      "category": "Botanica",
+      "topic": "botanica",
+      "source": "Classroom/aggiunti4 · 2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf",
+      "references": [
+        {
+          "drive_id": "1zpeEhwJClpb7pTGMzDzXBvJQxhDv8LZ9",
+          "title": "2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf",
+          "page": 11
+        }
+      ],
+      "reference": "2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf · pagina 11",
+      "question": "In che cosa consiste la crescita primaria?",
+      "note": "",
+      "tags": [
+        "aggiunti4"
+      ],
+      "type": "closed",
+      "answers": [
+        "Nell’allungamento degli apici dei germogli e delle radici",
+        "Nella sola formazione del durame",
+        "Nell’aumento annuale del diametro prodotto dal fellogeno"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La crescita primaria allunga l’apparato aereo e radicale grazie all’attività dei meristemi apicali; l’ingrossamento è invece crescita secondaria."
+    },
+    {
+      "id": "gea519-c-a4-011",
+      "bankNumber": "C539",
+      "originalId": "GEA-C-20261019-A4-011",
+      "category": "Botanica",
+      "topic": "botanica",
+      "source": "Classroom/aggiunti4 · 2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf",
+      "references": [
+        {
+          "drive_id": "1zpeEhwJClpb7pTGMzDzXBvJQxhDv8LZ9",
+          "title": "2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf",
+          "page": 14
+        }
+      ],
+      "reference": "2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf · pagina 14",
+      "question": "Quali meristemi sono responsabili soprattutto della crescita secondaria?",
+      "note": "",
+      "tags": [
+        "aggiunti4"
+      ],
+      "type": "closed",
+      "answers": [
+        "Cambio e fellogeno",
+        "Stomi e lenticelle",
+        "Cotiledoni ed endosperma"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Il cambio produce tessuti conduttori secondari, mentre il fellogeno contribuisce alla formazione e al rinnovamento dei tessuti protettivi esterni."
+    },
+    {
+      "id": "gea519-c-a4-012",
+      "bankNumber": "C540",
+      "originalId": "GEA-C-20261019-A4-012",
+      "category": "Botanica",
+      "topic": "botanica",
+      "source": "Classroom/aggiunti4 · 2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf",
+      "references": [
+        {
+          "drive_id": "1zpeEhwJClpb7pTGMzDzXBvJQxhDv8LZ9",
+          "title": "2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf",
+          "page": 14
+        }
+      ],
+      "reference": "2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf · pagina 14",
+      "question": "Che cosa produce il cambio durante l’ingrossamento di fusto e radici?",
+      "note": "",
+      "tags": [
+        "aggiunti4"
+      ],
+      "type": "closed",
+      "answers": [
+        "Legno secondario verso l’interno e libro secondario verso l’esterno",
+        "Libro secondario verso l’interno e fiori verso l’esterno",
+        "Soltanto corteccia in entrambe le direzioni"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le cellule cambiali si differenziano in xilema o legno secondario verso l’interno e floema o libro secondario verso l’esterno."
+    },
+    {
+      "id": "gea519-c-a4-013",
+      "bankNumber": "C541",
+      "originalId": "GEA-C-20261019-A4-013",
+      "category": "Botanica",
+      "topic": "botanica",
+      "source": "Classroom/aggiunti4 · 2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf",
+      "references": [
+        {
+          "drive_id": "1zpeEhwJClpb7pTGMzDzXBvJQxhDv8LZ9",
+          "title": "2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf",
+          "page": 16
+        }
+      ],
+      "reference": "2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf · pagina 16",
+      "question": "Qual è la differenza principale tra alburno e durame?",
+      "note": "",
+      "tags": [
+        "aggiunti4"
+      ],
+      "type": "closed",
+      "answers": [
+        "L’alburno comprende gli anelli esterni funzionanti; il durame quelli centrali occlusi con funzione soprattutto di sostegno",
+        "L’alburno è sempre morto; il durame conduce tutta la linfa grezza",
+        "Sono due nomi equivalenti per il cambio"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "L’alburno, generalmente chiaro, comprende il legno ancora attivo nel trasporto e nella riserva; il durame è più interno, spesso più scuro e soprattutto strutturale."
+    },
+    {
+      "id": "gea519-c-a4-014",
+      "bankNumber": "C542",
+      "originalId": "GEA-C-20261019-A4-014",
+      "category": "Botanica",
+      "topic": "botanica",
+      "source": "Classroom/aggiunti4 · 2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf",
+      "references": [
+        {
+          "drive_id": "1zpeEhwJClpb7pTGMzDzXBvJQxhDv8LZ9",
+          "title": "2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf",
+          "page": 17
+        }
+      ],
+      "reference": "2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf · pagina 17",
+      "question": "Quale gruppo comprende ormoni che stimolano la crescita vegetale?",
+      "note": "",
+      "tags": [
+        "aggiunti4"
+      ],
+      "type": "closed",
+      "answers": [
+        "Auxine, gibberelline e citochinine",
+        "Acido abscissico ed etilene",
+        "Clorofilla, caroteni e xantofille"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Auxine, gibberelline e citochinine favoriscono diversi processi di crescita; acido abscissico ed etilene possono invece contribuire ad arresto, dormienza o abscissione."
+    },
+    {
+      "id": "gea519-c-a4-015",
+      "bankNumber": "C543",
+      "originalId": "GEA-C-20261019-A4-015",
+      "category": "Botanica",
+      "topic": "botanica",
+      "source": "Classroom/aggiunti4 · 2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf",
+      "references": [
+        {
+          "drive_id": "1zpeEhwJClpb7pTGMzDzXBvJQxhDv8LZ9",
+          "title": "2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf",
+          "page": 19
+        }
+      ],
+      "reference": "2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf · pagina 19",
+      "question": "Che cosa indica la basitonia tipica di molti arbusti?",
+      "note": "",
+      "tags": [
+        "aggiunti4"
+      ],
+      "type": "closed",
+      "answers": [
+        "La dominanza delle gemme basali, che originano germogli più vigorosi",
+        "La permanenza per tutta la vita della sola gemma apicale",
+        "La produzione esclusiva di rami orizzontali privi di gemme"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Negli arbusti la dominanza basale fa partire prima e crescere maggiormente i germogli vicini alla base; questo schema prende il nome di basitonia."
+    },
+    {
+      "id": "gea519-c-a4-016",
+      "bankNumber": "C544",
+      "originalId": "GEA-C-20261019-A4-016",
+      "category": "Geologia e geomorfologia",
+      "topic": "geologia",
+      "source": "Classroom/aggiunti4 · le tappe dell'evoluzione geologica del Piemonte.pdf",
+      "references": [
+        {
+          "drive_id": "1NVfdWsn-eyFORdOek9FvEIKx7Gkd8lkZ",
+          "title": "le tappe dell'evoluzione geologica del Piemonte.pdf",
+          "page": 1
+        }
+      ],
+      "reference": "le tappe dell'evoluzione geologica del Piemonte.pdf · pagina 1",
+      "question": "Come si chiamava il supercontinente presente circa 300 milioni di anni fa?",
+      "note": "",
+      "tags": [
+        "aggiunti4"
+      ],
+      "type": "closed",
+      "answers": [
+        "Tetide",
+        "Pangea",
+        "Gondwana"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "Circa 300 milioni di anni fa le terre emerse erano riunite nella Pangea; la successiva frammentazione portò alla distinzione di grandi blocchi continentali."
+    },
+    {
+      "id": "gea519-c-a4-017",
+      "bankNumber": "C545",
+      "originalId": "GEA-C-20261019-A4-017",
+      "category": "Geologia e geomorfologia",
+      "topic": "geologia",
+      "source": "Classroom/aggiunti4 · le tappe dell'evoluzione geologica del Piemonte.pdf",
+      "references": [
+        {
+          "drive_id": "1NVfdWsn-eyFORdOek9FvEIKx7Gkd8lkZ",
+          "title": "le tappe dell'evoluzione geologica del Piemonte.pdf",
+          "page": 1
+        }
+      ],
+      "reference": "le tappe dell'evoluzione geologica del Piemonte.pdf · pagina 1",
+      "question": "Quale oceano si formò tra Laurasia e Gondwana dopo la frammentazione della Pangea?",
+      "note": "",
+      "tags": [
+        "aggiunti4"
+      ],
+      "type": "closed",
+      "answers": [
+        "Tetide",
+        "Tirreno",
+        "Adriatico"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "L’allontanamento dei due paleocontinenti e l’invasione delle aree depresse portarono alla formazione dell’oceano della Tetide."
+    },
+    {
+      "id": "gea519-c-a4-018",
+      "bankNumber": "C546",
+      "originalId": "GEA-C-20261019-A4-018",
+      "category": "Geologia e geomorfologia",
+      "topic": "geologia",
+      "source": "Classroom/aggiunti4 · le tappe dell'evoluzione geologica del Piemonte.pdf",
+      "references": [
+        {
+          "drive_id": "1NVfdWsn-eyFORdOek9FvEIKx7Gkd8lkZ",
+          "title": "le tappe dell'evoluzione geologica del Piemonte.pdf",
+          "page": 1
+        }
+      ],
+      "reference": "le tappe dell'evoluzione geologica del Piemonte.pdf · pagina 1",
+      "question": "Che cosa iniziò circa 130 milioni di anni fa tra Gondwana e Laurasia?",
+      "note": "",
+      "tags": [
+        "aggiunti4"
+      ],
+      "type": "closed",
+      "answers": [
+        "Una nuova espansione che allargò definitivamente la Tetide",
+        "La convergenza con subduzione del fondo oceanico sotto la placca africana",
+        "La formazione degli anfiteatri morenici"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "L’inversione del movimento avvicinò i blocchi; il fondo della Tetide entrò in subduzione e le rocce profonde subirono forti pressioni, temperature e metamorfismo."
+    },
+    {
+      "id": "gea519-c-a4-019",
+      "bankNumber": "C547",
+      "originalId": "GEA-C-20261019-A4-019",
+      "category": "Geologia e geomorfologia",
+      "topic": "geologia",
+      "source": "Classroom/aggiunti4 · le tappe dell'evoluzione geologica del Piemonte.pdf",
+      "references": [
+        {
+          "drive_id": "1NVfdWsn-eyFORdOek9FvEIKx7Gkd8lkZ",
+          "title": "le tappe dell'evoluzione geologica del Piemonte.pdf",
+          "page": 1
+        }
+      ],
+      "reference": "le tappe dell'evoluzione geologica del Piemonte.pdf · pagina 1",
+      "question": "Che cosa rappresenta la Linea Insubrica o Periadriatica?",
+      "note": "",
+      "tags": [
+        "aggiunti4"
+      ],
+      "type": "closed",
+      "answers": [
+        "La sutura tettonica tra domini di origine africana ed europea",
+        "Il limite dell’antico ghiacciaio della Valle di Susa",
+        "La costa del mare piemontese di 5 milioni di anni fa"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "È una grande struttura tettonica che testimonia la collisione e separa unità riferibili ai margini africano ed europeo della catena alpina."
+    },
+    {
+      "id": "gea519-c-a4-020",
+      "bankNumber": "C548",
+      "originalId": "GEA-C-20261019-A4-020",
+      "category": "Geologia e geomorfologia",
+      "topic": "geologia",
+      "source": "Classroom/aggiunti4 · le tappe dell'evoluzione geologica del Piemonte.pdf",
+      "references": [
+        {
+          "drive_id": "1NVfdWsn-eyFORdOek9FvEIKx7Gkd8lkZ",
+          "title": "le tappe dell'evoluzione geologica del Piemonte.pdf",
+          "page": 1
+        }
+      ],
+      "reference": "le tappe dell'evoluzione geologica del Piemonte.pdf · pagina 1",
+      "question": "Quale processo contribuì alla formazione degli Appennini circa 20 milioni di anni fa?",
+      "note": "",
+      "tags": [
+        "aggiunti4"
+      ],
+      "type": "closed",
+      "answers": [
+        "La rotazione antioraria del blocco sardo-corso e la conseguente compressione",
+        "La crescita degli anfiteatri morenici alpini",
+        "La chiusura annuale degli stomi"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La rotazione antioraria del blocco sardo-corso incontrò la resistenza del margine africano, generando compressione e contribuendo all’orogenesi appenninica."
+    },
+    {
+      "id": "gea519-c-a4-021",
+      "bankNumber": "C549",
+      "originalId": "GEA-C-20261019-A4-021",
+      "category": "Geologia e geomorfologia",
+      "topic": "geologia",
+      "source": "Classroom/aggiunti4 · le tappe dell'evoluzione geologica del Piemonte.pdf",
+      "references": [
+        {
+          "drive_id": "1NVfdWsn-eyFORdOek9FvEIKx7Gkd8lkZ",
+          "title": "le tappe dell'evoluzione geologica del Piemonte.pdf",
+          "page": 1
+        }
+      ],
+      "reference": "le tappe dell'evoluzione geologica del Piemonte.pdf · pagina 1",
+      "question": "Che cosa caratterizzò la crisi di salinità mediterranea tra 7 e 5 milioni di anni fa?",
+      "note": "",
+      "tags": [
+        "aggiunti4"
+      ],
+      "type": "closed",
+      "answers": [
+        "Un Mediterraneo isolato e la deposizione di evaporiti",
+        "Una completa glaciazione della Pianura Padana",
+        "La nascita della Pangea"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "L’isolamento dall’Atlantico rese il bacino poco profondo e molto salato; l’evaporazione lasciò depositi di gesso, anidrite e salgemma."
+    },
+    {
+      "id": "gea519-c-a4-022",
+      "bankNumber": "C550",
+      "originalId": "GEA-C-20261019-A4-022",
+      "category": "Geologia e geomorfologia",
+      "topic": "geologia",
+      "source": "Classroom/aggiunti4 · le tappe dell'evoluzione geologica del Piemonte.pdf",
+      "references": [
+        {
+          "drive_id": "1NVfdWsn-eyFORdOek9FvEIKx7Gkd8lkZ",
+          "title": "le tappe dell'evoluzione geologica del Piemonte.pdf",
+          "page": 1
+        }
+      ],
+      "reference": "le tappe dell'evoluzione geologica del Piemonte.pdf · pagina 1",
+      "question": "Che aspetto aveva gran parte dell’attuale Pianura Padana circa 5 milioni di anni fa?",
+      "note": "",
+      "tags": [
+        "aggiunti4"
+      ],
+      "type": "closed",
+      "answers": [
+        "Era occupata da un vasto golfo marino",
+        "Era coperta da una calotta glaciale permanente",
+        "Era già una pianura identica a quella attuale"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Dopo il ritorno delle acque mediterranee, un golfo triangolare occupava la Pianura Padana e lambiva le catene alpina e appenninica."
+    },
+    {
+      "id": "gea519-c-a4-023",
+      "bankNumber": "C551",
+      "originalId": "GEA-C-20261019-A4-023",
+      "category": "Geologia e geomorfologia",
+      "topic": "geologia",
+      "source": "Classroom/aggiunti4 · le tappe dell'evoluzione geologica del Piemonte.pdf",
+      "references": [
+        {
+          "drive_id": "1NVfdWsn-eyFORdOek9FvEIKx7Gkd8lkZ",
+          "title": "le tappe dell'evoluzione geologica del Piemonte.pdf",
+          "page": 1
+        }
+      ],
+      "reference": "le tappe dell'evoluzione geologica del Piemonte.pdf · pagina 1",
+      "question": "A quale ambiente è collegata la foresta fossile della Stura di Lanzo, datata circa 3 milioni di anni fa?",
+      "note": "",
+      "tags": [
+        "aggiunti4"
+      ],
+      "type": "closed",
+      "answers": [
+        "A una piana costiera con delta, lagune e stagni durante il ritiro del mare",
+        "A una dorsale medio-oceanica ancora attiva",
+        "A un deserto formatosi durante l’ultima glaciazione"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Tra 4 e 3 milioni di anni fa il mare arretrava verso est mentre i fiumi costruivano delta e piane costiere; in questo contesto si colloca la foresta fossile."
+    },
+    {
+      "id": "gea519-c-a4-024",
+      "bankNumber": "C552",
+      "originalId": "GEA-C-20261019-A4-024",
+      "category": "Geologia e geomorfologia",
+      "topic": "geologia",
+      "source": "Classroom/aggiunti4 · le tappe dell'evoluzione geologica del Piemonte.pdf",
+      "references": [
+        {
+          "drive_id": "1NVfdWsn-eyFORdOek9FvEIKx7Gkd8lkZ",
+          "title": "le tappe dell'evoluzione geologica del Piemonte.pdf",
+          "page": 1
+        }
+      ],
+      "reference": "le tappe dell'evoluzione geologica del Piemonte.pdf · pagina 1",
+      "question": "Quale effetto ebbero le glaciazioni alpine iniziate circa un milione di anni fa?",
+      "note": "",
+      "tags": [
+        "aggiunti4"
+      ],
+      "type": "closed",
+      "answers": [
+        "Le lingue glaciali ampliarono le valli e depositarono materiali formando anfiteatri morenici",
+        "Il Mediterraneo si prosciugò formando evaporiti",
+        "La Tetide raggiunse la sua massima ampiezza"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "I ghiacciai occuparono molte valli, ne modificarono la forma e, allo sbocco in pianura, accumularono grandi quantità di detriti in strutture moreniche."
+    },
+    {
+      "id": "gea519-o-a4-001",
+      "bankNumber": "A131",
+      "originalId": "GEA-O-20261019-A4-001",
+      "category": "Botanica",
+      "topic": "botanica",
+      "source": "Classroom/aggiunti4 · 2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf",
+      "references": [
+        {
+          "drive_id": "1zpeEhwJClpb7pTGMzDzXBvJQxhDv8LZ9",
+          "title": "2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf",
+          "page": 4
+        }
+      ],
+      "reference": "2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf · pagina 4",
+      "question": "Confronta fotosintesi e respirazione nelle piante, indicando sedi, tempi, reagenti, prodotti e funzione energetica.",
+      "note": "",
+      "tags": [
+        "aggiunti4"
+      ],
+      "type": "open",
+      "answers": [],
+      "correct": [],
+      "explanation": "Imposta una risposta ordinata: definisci il tema, sviluppa i passaggi principali e aggiungi esempi pertinenti. Da ampliare.",
+      "hint": "Organizza la risposta in ordine logico o cronologico, collega cause ed effetti e usa esempi del Piemonte quando pertinenti. Da ampliare.",
+      "exampleAnswer": "Esempio di risposta da ampliare:\n1. Definisci la fotosintesi come conversione dell’energia luminosa in energia chimica.\n2. Indica i cloroplasti e i tessuti verdi esposti alla luce come sedi principali.\n3. Cita acqua e anidride carbonica come materie prime della fotosintesi.\n4. Spiega il ruolo della clorofilla e degli altri pigmenti nella cattura della luce.\n5. Distingui fase luminosa e fase oscura senza presentarle come processi indipendenti.\n6. Ricorda la formazione di ATP e la liberazione di ossigeno nella fase luminosa.\n7. Indica il glucosio come primo prodotto organico centrale del processo.\n8. Collega gli zuccheri alla linfa elaborata e al rifornimento degli organi non fotosintetici.\n9. Definisci la respirazione come demolizione di sostanze organiche con consumo di ossigeno.\n10. Indica anidride carbonica, acqua ed energia tra i risultati della respirazione.\n11. Spiega che una parte dell’energia è resa disponibile tramite ATP e una parte dispersa come calore.\n12. Sottolinea che la respirazione avviene in ogni cellula viva della pianta.\n13. Distingui il ritmo: fotosintesi con luce, respirazione di giorno e di notte.\n14. Ricorda che la respirazione è intensa nei tessuti giovani, durante germinazione e fioritura.\n15. Concludi mostrando che i due processi sono complementari nel bilancio di materia ed energia.\n\nDa ampliare con collegamenti, esempi e terminologia specifica.",
+      "probable": false,
+      "certain": false,
+      "probableSource": "",
+      "sourceNote": "Traccia di ripasso ricavata dal materiale Classroom/aggiunti4; non indicata come domanda sicura. Risposta consigliata entro circa 15 righe."
+    },
+    {
+      "id": "gea519-o-a4-002",
+      "bankNumber": "A132",
+      "originalId": "GEA-O-20261019-A4-002",
+      "category": "Botanica",
+      "topic": "botanica",
+      "source": "Classroom/aggiunti4 · 2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf",
+      "references": [
+        {
+          "drive_id": "1zpeEhwJClpb7pTGMzDzXBvJQxhDv8LZ9",
+          "title": "2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf",
+          "page": 14
+        }
+      ],
+      "reference": "2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf · pagina 14",
+      "question": "Descrivi crescita primaria e crescita secondaria di una pianta, collegandole ai meristemi e ai tessuti prodotti.",
+      "note": "",
+      "tags": [
+        "aggiunti4"
+      ],
+      "type": "open",
+      "answers": [],
+      "correct": [],
+      "explanation": "Imposta una risposta ordinata: definisci il tema, sviluppa i passaggi principali e aggiungi esempi pertinenti. Da ampliare.",
+      "hint": "Organizza la risposta in ordine logico o cronologico, collega cause ed effetti e usa esempi del Piemonte quando pertinenti. Da ampliare.",
+      "exampleAnswer": "Esempio di risposta da ampliare:\n1. Definisci la crescita primaria come allungamento degli apici di germogli e radici.\n2. Collegala ai meristemi apicali e all’aumento in altezza e profondità.\n3. Parti dalla germinazione e dall’uso iniziale delle riserve dell’endosperma.\n4. Ricorda il ruolo della radichetta nell’assorbimento e del fusticino nel raggiungere la luce.\n5. Spiega la formazione di foglie, nodi, internodi e gemme durante l’allungamento.\n6. Distingui gemme a legno, a fiore e miste come esito della differenziazione.\n7. Definisci la crescita secondaria come ingrossamento annuale dal secondo anno.\n8. Indica cambio e fellogeno come principali meristemi secondari.\n9. Spiega che il cambio produce legno secondario verso l’interno.\n10. Aggiungi che il cambio produce libro secondario verso l’esterno.\n11. Descrivi il fellogeno come responsabile del rinnovo dei tessuti protettivi esterni.\n12. Collega l’attività stagionale del cambio agli anelli di accrescimento.\n13. Distingui alburno funzionante e durame centrale prevalentemente di sostegno.\n14. Cita i raggi parenchimatici come collegamenti trasversali fra gli anelli.\n15. Concludi spiegando come allungamento e ingrossamento costruiscono insieme la pianta perenne.\n\nDa ampliare con collegamenti, esempi e terminologia specifica.",
+      "probable": false,
+      "certain": false,
+      "probableSource": "",
+      "sourceNote": "Traccia di ripasso ricavata dal materiale Classroom/aggiunti4; non indicata come domanda sicura. Risposta consigliata entro circa 15 righe."
+    },
+    {
+      "id": "gea519-o-a4-003",
+      "bankNumber": "A133",
+      "originalId": "GEA-O-20261019-A4-003",
+      "category": "Botanica",
+      "topic": "botanica",
+      "source": "Classroom/aggiunti4 · 2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf",
+      "references": [
+        {
+          "drive_id": "1zpeEhwJClpb7pTGMzDzXBvJQxhDv8LZ9",
+          "title": "2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf",
+          "page": 17
+        }
+      ],
+      "reference": "2025_DISPENSA_BOTANICA_QUARTA_PARTE_FISIOLOGIA_VEGETALE.pdf · pagina 17",
+      "question": "Spiega come ormoni e dominanza delle gemme regolano la forma e il tipo di crescita di erbacee, arbusti e alberi.",
+      "note": "",
+      "tags": [
+        "aggiunti4"
+      ],
+      "type": "open",
+      "answers": [],
+      "correct": [],
+      "explanation": "Imposta una risposta ordinata: definisci il tema, sviluppa i passaggi principali e aggiungi esempi pertinenti. Da ampliare.",
+      "hint": "Organizza la risposta in ordine logico o cronologico, collega cause ed effetti e usa esempi del Piemonte quando pertinenti. Da ampliare.",
+      "exampleAnswer": "Esempio di risposta da ampliare:\n1. Presenta la crescita come risultato dell’equilibrio fra ormoni stimolanti e inibenti.\n2. Cita auxine, gibberelline e citochinine tra gli ormoni che favoriscono la crescita.\n3. Cita acido abscissico ed etilene nei processi di arresto, dormienza o abscissione.\n4. Collega gli ormoni alla risposta della pianta alle condizioni ambientali e alle stagioni.\n5. Descrivi le erbacee come piante che replicano strutture a partire da gemme vicine al colletto.\n6. Definisci la dominanza basale tipica di molti arbusti.\n7. Spiega che le gemme basali partono prima e originano germogli più lunghi.\n8. Nomina basitonia il modello di crescita dominato dalla base.\n9. Definisci la dominanza apicale tipica di molti alberi.\n10. Spiega il ruolo dell’auxina prodotta dall’apice nel limitare gemme concorrenti.\n11. Nomina acrotonia il modello in cui prevalgono le gemme superiori.\n12. Distingui epitonìa e ipotonìa in base al lato del ramo favorito.\n13. Spiega che la rimozione dell’apice può favorire la verticalizzazione di rami laterali.\n14. Distingui crescita monopodiale con leader persistente e simpodiale con sostituzione dell’apice.\n15. Concludi collegando questi meccanismi alla forma finale della chioma.\n\nDa ampliare con collegamenti, esempi e terminologia specifica.",
+      "probable": false,
+      "certain": false,
+      "probableSource": "",
+      "sourceNote": "Traccia di ripasso ricavata dal materiale Classroom/aggiunti4; non indicata come domanda sicura. Risposta consigliata entro circa 15 righe."
+    },
+    {
+      "id": "gea519-o-a4-004",
+      "bankNumber": "A134",
+      "originalId": "GEA-O-20261019-A4-004",
+      "category": "Geologia e geomorfologia",
+      "topic": "geologia",
+      "source": "Classroom/aggiunti4 · le tappe dell'evoluzione geologica del Piemonte.pdf",
+      "references": [
+        {
+          "drive_id": "1NVfdWsn-eyFORdOek9FvEIKx7Gkd8lkZ",
+          "title": "le tappe dell'evoluzione geologica del Piemonte.pdf",
+          "page": 1
+        }
+      ],
+      "reference": "le tappe dell'evoluzione geologica del Piemonte.pdf · pagina 1",
+      "question": "Ricostruisci le principali tappe che dalla Pangea portarono alla formazione delle Alpi piemontesi.",
+      "note": "",
+      "tags": [
+        "aggiunti4"
+      ],
+      "type": "open",
+      "answers": [],
+      "correct": [],
+      "explanation": "Imposta una risposta ordinata: definisci il tema, sviluppa i passaggi principali e aggiungi esempi pertinenti. Da ampliare.",
+      "hint": "Organizza la risposta in ordine logico o cronologico, collega cause ed effetti e usa esempi del Piemonte quando pertinenti. Da ampliare.",
+      "exampleAnswer": "Esempio di risposta da ampliare:\n1. Parti dalla Pangea, presente circa 300 milioni di anni fa.\n2. Ricorda l’antica catena dell’Europa centrale già interessata da erosione.\n3. Cita l’inarcamento della crosta e la risalita di magmi iniziati circa 256 milioni di anni fa.\n4. Descrivi la frammentazione della Pangea in Laurasia e Gondwana intorno a 220 milioni di anni fa.\n5. Spiega l’invasione delle depressioni da parte dell’acqua.\n6. Indica la nascita dell’oceano della Tetide fra i due blocchi.\n7. Ricorda la massima oceanizzazione e la dorsale medio-oceanica tra circa 190 e 140 milioni di anni fa.\n8. Descrivi l’inversione del movimento e la convergenza iniziata circa 130 milioni di anni fa.\n9. Spiega la subduzione del fondo oceanico sotto il margine africano.\n10. Collega profondità, pressione e temperatura al metamorfismo delle rocce.\n11. Descrivi la scomparsa della Tetide e la collisione continentale.\n12. Spiega l’accavallamento e il raddoppio della crosta durante la collisione.\n13. Cita le coltri rocciose traslate e accavallate nella catena nascente.\n14. Indica la Linea Insubrica o Periadriatica come importante sutura tettonica.\n15. Concludi con il sollevamento alpino, ancora oggi testimoniato anche dalla sismicità.\n\nDa ampliare con collegamenti, esempi e terminologia specifica.",
+      "probable": false,
+      "certain": false,
+      "probableSource": "",
+      "sourceNote": "Traccia di ripasso ricavata dal materiale Classroom/aggiunti4; non indicata come domanda sicura. Risposta consigliata entro circa 15 righe."
+    },
+    {
+      "id": "gea519-o-a4-005",
+      "bankNumber": "A135",
+      "originalId": "GEA-O-20261019-A4-005",
+      "category": "Geologia e geomorfologia",
+      "topic": "geologia",
+      "source": "Classroom/aggiunti4 · le tappe dell'evoluzione geologica del Piemonte.pdf",
+      "references": [
+        {
+          "drive_id": "1NVfdWsn-eyFORdOek9FvEIKx7Gkd8lkZ",
+          "title": "le tappe dell'evoluzione geologica del Piemonte.pdf",
+          "page": 1
+        }
+      ],
+      "reference": "le tappe dell'evoluzione geologica del Piemonte.pdf · pagina 1",
+      "question": "Descrivi l’evoluzione del Piemonte dal sollevamento delle Alpi al definitivo ritiro del mare dalla Pianura Padana.",
+      "note": "",
+      "tags": [
+        "aggiunti4"
+      ],
+      "type": "open",
+      "answers": [],
+      "correct": [],
+      "explanation": "Imposta una risposta ordinata: definisci il tema, sviluppa i passaggi principali e aggiungi esempi pertinenti. Da ampliare.",
+      "hint": "Organizza la risposta in ordine logico o cronologico, collega cause ed effetti e usa esempi del Piemonte quando pertinenti. Da ampliare.",
+      "exampleAnswer": "Esempio di risposta da ampliare:\n1. Inizia dalle Alpi emerse e soggette a erosione circa 20 milioni di anni fa.\n2. Descrivi la rotazione antioraria del blocco sardo-corso.\n3. Collega la compressione generata da questa rotazione alla nascita degli Appennini.\n4. Ricorda l’apertura del Tirreno iniziata intorno a 8 milioni di anni fa.\n5. Presenta la crisi di salinità mediterranea tra 7 e 5 milioni di anni fa.\n6. Spiega la deposizione di evaporiti come gesso, anidrite e salgemma.\n7. Indica Collina di Torino, Monferrato e Langhe fra le aree con testimonianze evaporitiche.\n8. Descrivi il ritorno delle acque e il grande golfo padano circa 5 milioni di anni fa.\n9. Ricorda il clima caldo e umido e il mare basso che lambiva le catene.\n10. Spiega il progressivo sollevamento e il ritiro del mare tra 4 e 3 milioni di anni fa.\n11. Descrivi delta, lagune, stagni e piane costiere costruiti dai corsi d’acqua.\n12. Cita la foresta fossile della Stura di Lanzo come testimonianza di quel paesaggio.\n13. Indica il definitivo ritiro del mare dal Piemonte circa 2 milioni di anni fa.\n14. Collega i movimenti tettonici al sollevamento e all’inclinazione dei sedimenti delle Langhe.\n15. Concludi con l’azione dei fiumi sui territori emersi e la costruzione della pianura.\n\nDa ampliare con collegamenti, esempi e terminologia specifica.",
+      "probable": false,
+      "certain": false,
+      "probableSource": "",
+      "sourceNote": "Traccia di ripasso ricavata dal materiale Classroom/aggiunti4; non indicata come domanda sicura. Risposta consigliata entro circa 15 righe."
+    },
+    {
+      "id": "gea519-o-a4-006",
+      "bankNumber": "A136",
+      "originalId": "GEA-O-20261019-A4-006",
+      "category": "Geologia e geomorfologia",
+      "topic": "geologia",
+      "source": "Classroom/aggiunti4 · le tappe dell'evoluzione geologica del Piemonte.pdf",
+      "references": [
+        {
+          "drive_id": "1NVfdWsn-eyFORdOek9FvEIKx7Gkd8lkZ",
+          "title": "le tappe dell'evoluzione geologica del Piemonte.pdf",
+          "page": 1
+        }
+      ],
+      "reference": "le tappe dell'evoluzione geologica del Piemonte.pdf · pagina 1",
+      "question": "Spiega come glaciazioni, tettonica e corsi d’acqua hanno modellato il paesaggio piemontese più recente.",
+      "note": "",
+      "tags": [
+        "aggiunti4"
+      ],
+      "type": "open",
+      "answers": [],
+      "correct": [],
+      "explanation": "Imposta una risposta ordinata: definisci il tema, sviluppa i passaggi principali e aggiungi esempi pertinenti. Da ampliare.",
+      "hint": "Organizza la risposta in ordine logico o cronologico, collega cause ed effetti e usa esempi del Piemonte quando pertinenti. Da ampliare.",
+      "exampleAnswer": "Esempio di risposta da ampliare:\n1. Colloca il cambiamento climatico principale descritto nella dispensa intorno a un milione di anni fa.\n2. Ricorda l’aumento e la maggiore regolarità delle precipitazioni.\n3. Cita il modesto abbassamento delle temperature medie estive.\n4. Spiega la nascita e l’espansione dei ghiacciai alpini.\n5. Descrivi le lingue glaciali che occupavano e rimodellavano le valli.\n6. Indica approfondimento e allargamento delle valli tra gli effetti dell’erosione glaciale.\n7. Spiega il trasporto di detriti dalle zone montane verso gli sbocchi vallivi.\n8. Collega la deposizione dei detriti alla formazione degli anfiteatri morenici.\n9. Ricorda l’alternanza di fasi di espansione e ritiro dei ghiacciai.\n10. Indica il ritiro dalle valli principali circa 10.000 anni fa.\n11. Osserva che oggi quasi tutti i ghiacciai alpini sono in fase di ritiro.\n12. Cita il continuo sollevamento tettonico di rilievi, colline e pianura.\n13. Spiega che il cambiamento d’inclinazione della pianura ha riorganizzato il reticolo idrografico.\n14. Cita Po e Tanaro come esempi di corsi d’acqua che hanno variato il loro percorso.\n15. Concludi collegando il sollevamento attuale all’incisione e all’approfondimento dei fiumi.\n\nDa ampliare con collegamenti, esempi e terminologia specifica.",
+      "probable": false,
+      "certain": false,
+      "probableSource": "",
+      "sourceNote": "Traccia di ripasso ricavata dal materiale Classroom/aggiunti4; non indicata come domanda sicura. Risposta consigliata entro circa 15 righe."
     }
   ]
 }

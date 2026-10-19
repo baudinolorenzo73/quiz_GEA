@@ -1,4 +1,12 @@
-QUIZ GEA — v2.3.8
+QUIZ GEA — v2.3.9
+
+Novità della versione 2.3.9
+- Aggiornata la banca completa v5.19 al formato 5.19-compat-1.2.
+- Aggiunte 30 domande ricavate dai due documenti Classroom/aggiunti4: 24 quiz a crocetta con spiegazione e 6 domande aperte.
+- Il nuovo materiale riguarda fisiologia vegetale, flussi linfatici, fotosintesi, respirazione, crescita e ormoni, oltre all’evoluzione geologica del Piemonte.
+- Le domande aperte mostrano agli studenti soltanto un suggerimento; l’esempio esteso di circa 15 righe resta visibile esclusivamente in modalità amministratore.
+- La banca completa contiene ora 687 domande: 551 chiuse e 136 aperte.
+- Ogni nuova domanda conserva il riferimento al PDF e alla pagina del materiale di origine.
 
 Novità della versione 2.3.8
 - Aggiunta una domanda aperta su marketing territoriale, collaborazione con operatori locali, istituzioni e comunità residenti.
@@ -58,15 +66,15 @@ Correzione della versione 2.3.3
 - Le note vengono salvate anche nel DB di origine, per ritrovarle dopo aver cambiato selezione.
 - Importazioni controllate prima della registrazione; un JSON non valido non cambia gli archivi.
 - Unione più precisa: distingue aperte, chiuse e varianti con opzioni o soluzioni diverse; gestisce le collisioni degli ID.
-- Riparata la comparazione delle versioni con suffisso, per esempio 5.19-compat-1.1.
+- Riparata la comparazione delle versioni con suffisso, per esempio 5.19-compat-1.2.
 - Evitata la doppia registrazione di una sessione consegnata due volte.
 - Corretto il test mirato per i DB senza codici argomento.
 - La cache PWA privilegia le pagine aggiornate online, conserva la copia offline e non elimina le cache di altre applicazioni.
 
 Pubblicazione della correzione
-1. Estrarre lo ZIP e pubblicare il contenuto della cartella Quiz_GEA_PWA_v2.3.8 nella cartella del sito esistente.
+1. Estrarre lo ZIP e pubblicare il contenuto della cartella Quiz_GEA_PWA_v2.3.9 nella cartella del sito esistente.
 2. Sostituire anche index.html, Quiz_GEA_unificato.html, sw.js e db-catalog.json, oltre ai sette JSON.
-3. Riaprire il sito e verificare la versione 2.3.8. Se resta la versione vecchia usare Aggiorna programma ora, oppure ricaricare il sito.
+3. Riaprire il sito e verificare la versione 2.3.9. Se resta la versione vecchia usare Aggiorna programma ora, oppure ricaricare il sito.
 4. Non cancellare i dati del sito: contengono note, risultati e domande personali.
 
 Correzione della versione 2.3.2
@@ -96,16 +104,16 @@ Novità della versione 2.2
 - Risultati delle domande chiuse suddivisi per argomento, con percentuale da recuperare.
 - Pulsante “Test mirato sugli errori”: ripropone gli errori e aggiunge domande degli stessi argomenti.
 - Le statistiche per argomento vengono conservate nello storico locale delle sessioni.
-- Il DB completo è aggiornato al formato 5.19-compat-1.1 e contiene i pesi dei 21 argomenti del corso.
+- Il DB completo è aggiornato al formato 5.19-compat-1.2 e contiene i pesi dei 21 argomenti del corso.
 
 Novità della versione 2.1
-- Nuovo DB compatibile “Banca completa v5.19”: 657 domande, delle quali 527 chiuse e 130 aperte.
+- Nuovo DB compatibile “Banca completa v5.19”: 687 domande, delle quali 551 chiuse e 136 aperte.
 - Eliminato un doppione reale relativo all'habitat del camoscio.
 - Memoria anti ripetizione configurabile da 0 a 8 sessioni.
 - Pulsanti A− e A+ per regolare il testo delle domande e delle risposte.
 - Collegamenti alle dispense quando nel DB è presente un riferimento Google Drive.
 - Durante l'importazione di più DB, le domande con testo identico vengono incluse una sola volta.
-- I punti chiave delle 130 domande aperte sono visibili come esempio soltanto in modalità amministratore.
+- I punti chiave delle 136 domande aperte sono visibili come esempio soltanto in modalità amministratore.
 
 Come usare il DB completo
 1. Nella versione pubblicata HTTPS/PWA, aprire il menu Database e spuntare “Banca completa v5.19”, rilevato automaticamente.

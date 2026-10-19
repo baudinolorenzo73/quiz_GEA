@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "updated": "2026-10-19",
   "app": {
-    "version": "2.3.8",
+    "version": "2.3.9",
     "file": "index.html",
     "serviceWorker": "sw.js"
   },
@@ -52,9 +52,9 @@
     {
       "id": "simulatore-gea-v519",
       "title": "Database Quiz GEA — Banca completa v5.19",
-      "version": "5.19-compat-1.1",
+      "version": "5.19-compat-1.2",
       "file": "DB_Quiz_GEA_banca_completa_v5.19.json",
-      "questions": 657
+      "questions": 687
     }
   ]
 }

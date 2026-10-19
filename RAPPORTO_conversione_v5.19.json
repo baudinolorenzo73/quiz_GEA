@@ -6,9 +6,19 @@
     "open": 130
   },
   "output": {
-    "questions": 657,
-    "closed": 527,
-    "open": 130
+    "questions": 687,
+    "closed": 551,
+    "open": 136
+  },
+  "additions": {
+    "source": "Classroom/aggiunti4",
+    "closed": 24,
+    "open": 6,
+    "total": 30,
+    "topics": [
+      "Fisiologia e crescita vegetale",
+      "Evoluzione geologica del Piemonte"
+    ]
   },
   "skipped": [
     {

@@ -1,4 +1,4 @@
-QUIZ GEA 2.3.4 — CONTROLLO DELLA CONFIGURAZIONE
+QUIZ GEA 2.3.5 — CONTROLLO DELLA CONFIGURAZIONE E DEL CREDITO PARZIALE
 Data: 19 ottobre 2026
 
 Nuovo percorso
@@ -9,6 +9,12 @@ La finestra «Filtri e opzioni» contiene materia, note, filtri aggiuntivi richi
 Il filtro singola/multipla riguarda solo i quiz; la modalità aperta si sceglie nella home.
 Il menu Database contiene soltanto gli archivi installati con le spunte di attivazione.
 La modalità viene conservata dopo la riapertura del programma e dopo la scelta di un altro database.
+
+Valutazione delle risposte multiple
+Una risposta con soltanto una parte delle opzioni corrette viene indicata come incompleta in giallo.
+Il programma mostra la percentuale di errore e assegna il credito proporzionale alla parte corretta.
+Ogni opzione errata selezionata sottrae il valore di una risposta corretta; il punteggio della domanda non scende mai sotto zero.
+Esempio: 2 opzioni corrette selezionate su 3, senza opzioni errate, valgono 66,7% della domanda e mostrano 33% di errore.
 
 Verifiche automatiche
 56 verifiche di funzionamento del motore e dell'interfaccia superate.

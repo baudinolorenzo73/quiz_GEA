@@ -1,6 +1,12 @@
-QUIZ GEA — v2.3.4
+QUIZ GEA — v2.3.5
 
-Novità della versione 2.3.4
+Novità della versione 2.3.5
+- Le risposte multiple parzialmente corrette sono indicate come «incomplete» in giallo.
+- Ogni risposta incompleta mostra la percentuale di errore e riceve un punteggio proporzionale.
+- Le opzioni errate selezionate riducono il credito parziale, così selezionare tutte le opzioni non assegna il punteggio pieno.
+- La percentuale finale, la media delle sessioni e il riepilogo per argomento includono il credito parziale.
+
+Correzione della versione 2.3.4
 - Pagina iniziale semplificata: tre modalità visibili, Quiz + aperte, Solo quiz e Solo aperte.
 - I numeri delle domande si scelgono una sola volta nella pagina iniziale; si vede solo il numero pertinente alla modalità.
 - Il riepilogo del test è accanto alla selezione; in assenza di domande disponibili appare un'indicazione chiara.
@@ -32,7 +38,7 @@ Correzione della versione 2.3.3
 - La cache PWA privilegia le pagine aggiornate online, conserva la copia offline e non elimina le cache di altre applicazioni.
 
 Pubblicazione della correzione
-1. Estrarre lo ZIP e pubblicare il contenuto della cartella Quiz_GEA_PWA_v2.3.3 nella cartella del sito esistente.
+1. Estrarre lo ZIP e pubblicare il contenuto della cartella Quiz_GEA_PWA_v2.3.5 nella cartella del sito esistente.
 2. Sostituire anche index.html, Quiz_GEA_unificato.html, sw.js e db-catalog.json, oltre ai sei JSON.
 3. Riaprire il sito e verificare la versione 2.3.3. Se resta la versione vecchia usare Aggiorna programma ora, oppure ricaricare il sito.
 4. Non cancellare i dati del sito: contengono note, risultati e domande personali.

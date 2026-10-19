@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "updated": "2026-10-19",
   "app": {
-    "version": "2.3.4",
+    "version": "2.3.5",
     "file": "index.html",
     "serviceWorker": "sw.js"
   },
